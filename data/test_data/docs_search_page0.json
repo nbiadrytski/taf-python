@@ -1,0 +1,476 @@
+{
+  "results": [
+    {
+      "exhaustiveNbHits": true,
+      "hits": [
+        {
+          "_highlightResult": {
+            "content": {
+              "fullyHighlighted": false,
+              "matchLevel": "partial",
+              "matchedWords": [
+                "import",
+                "data",
+                "from",
+                "rep"
+              ],
+              "value": "<p>When scoring models built with Feature Discovery, you need to ensure the secondary datasets are up-to-date and that feature derivation will complete without problems.</p> <p>To make predictions on models built with Feature Discovery:</p> <ol>\n<li>\n<p>In the <strong>Models</strong> page, click the <strong>Leaderboard</strong> tab and click the model you selected for deployment.</p>\n</li>\n<li>\n<p>Click <strong>Predict</strong>, then under <strong>Prediction Datasets</strong>, click <strong><ais-highlight-0000000000>Import</ais-highlight-0000000000> <ais-highlight-0000000000>data</ais-highlight-0000000000> <ais-highlight-0000000000>from</ais-highlight-0000000000></strong> and <ais-highlight-0000000000>import</ais-highlight-0000000000> the scoring dataset. </p>\n<p></p>\n<p>The dataset must have the same schema as the dataset used to create the project. The target column is optional and you don't need to upload secondary datasets at this point. </p>\n</li>\n<li>\n<p>After the dataset is uploaded, click <strong>Compute Predictions</strong>.</p>\n<p></p>\n</li>\n<li>\n<p>To change the default configuration for the secondary datasets, under <strong>Secondary datasets configuration</strong>, click <strong>Change</strong>. </p>\n<p></p>\n<p>Updating the secondary dataset configuration is necessary if the scoring <ais-highlight-0000000000>data</ais-highlight-0000000000> has a different time period and is not joinable with the secondary datasets used in the training phase.</p>\n</li>\n<li>\n<p>To add a new configuration, click <strong>create new</strong>. </p>\n<p></p>\n</li>\n<li>\n<p>To <ais-highlight-0000000000>rep</ais-highlight-0000000000>lace secondary dataset, on the <strong>Secondary Datasets Configuration</strong> window, locate the secondary dataset and click <strong><ais-highlight-0000000000>Rep</ais-highlight-0000000000>lace</strong>.</p>\n<p></p>\n</li>\n</ol> <div class=\"admonition note\">\n<p class=\"admonition-title\">Note</p>\n<p>If you need to <ais-highlight-0000000000>rep</ais-highlight-0000000000>lace a secondary dataset, do so before uploading your scoring dataset to DataRobot. If not, DataRobot will use the default settings to compute the joins and perform feature derivation.</p>\n</div>"
+            },
+            "section": {
+              "matchLevel": "none",
+              "matchedWords": [
+
+              ],
+              "value": "Score models built with Feature Discovery"
+            },
+            "title": {
+              "fullyHighlighted": false,
+              "matchLevel": "partial",
+              "matchedWords": [
+                "using",
+                "data"
+              ],
+              "value": "Enrich <ais-highlight-0000000000>data</ais-highlight-0000000000> <ais-highlight-0000000000>using</ais-highlight-0000000000> Feature Discovery"
+            }
+          },
+          "anchor": "score-models-built-with-feature-discovery",
+          "breadcrumbs": null,
+          "content": "<p>When scoring models built with Feature Discovery, you need to ensure the secondary datasets are up-to-date and that feature derivation will complete without problems.</p> <p>To make predictions on models built with Feature Discovery:</p> <ol>\n<li>\n<p>In the <strong>Models</strong> page, click the <strong>Leaderboard</strong> tab and click the model you selected for deployment.</p>\n</li>\n<li>\n<p>Click <strong>Predict</strong>, then under <strong>Prediction Datasets</strong>, click <strong>Import data from</strong> and import the scoring dataset. </p>\n<p></p>\n<p>The dataset must have the same schema as the dataset used to create the project. The target column is optional and you don't need to upload secondary datasets at this point. </p>\n</li>\n<li>\n<p>After the dataset is uploaded, click <strong>Compute Predictions</strong>.</p>\n<p></p>\n</li>\n<li>\n<p>To change the default configuration for the secondary datasets, under <strong>Secondary datasets configuration</strong>, click <strong>Change</strong>. </p>\n<p></p>\n<p>Updating the secondary dataset configuration is necessary if the scoring data has a different time period and is not joinable with the secondary datasets used in the training phase.</p>\n</li>\n<li>\n<p>To add a new configuration, click <strong>create new</strong>. </p>\n<p></p>\n</li>\n<li>\n<p>To replace secondary dataset, on the <strong>Secondary Datasets Configuration</strong> window, locate the secondary dataset and click <strong>Replace</strong>.</p>\n<p></p>\n</li>\n</ol> <div class=\"admonition note\">\n<p class=\"admonition-title\">Note</p>\n<p>If you need to replace a secondary dataset, do so before uploading your scoring dataset to DataRobot. If not, DataRobot will use the default settings to compute the joins and perform feature derivation.</p>\n</div>",
+          "itemType": "api",
+          "objectID": "3117ce44-8ddd-4f10-8460-5c0fe19ee9f2",
+          "section": "Score models built with Feature Discovery",
+          "title": "Enrich data using Feature Discovery",
+          "toc": [
+            "Takeaways",
+            "Load the datasets to AI Catalog",
+            "Add secondary datasets",
+            "Define relationships",
+            "Build your models",
+            "Review derived features",
+            "Score models built with Feature Discovery",
+            "Learn more"
+          ],
+          "url": "/en/tutorials/prep-learning-data/enrich-data-using-feature-discovery.html"
+        },
+        {
+          "_highlightResult": {
+            "content": {
+              "fullyHighlighted": false,
+              "matchLevel": "full",
+              "matchedWords": [
+                "using",
+                "import",
+                "data",
+                "from",
+                "rep"
+              ],
+              "value": "<p>These sections describe how to manage your datasets in <ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep:</p> <table>\n<thead>\n<tr>\n<th>Topic</th>\n<th>Describes...</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><ais-highlight-0000000000>Import</ais-highlight-0000000000> datasets</td>\n<td>How to <ais-highlight-0000000000>import</ais-highlight-0000000000> <ais-highlight-0000000000>data</ais-highlight-0000000000> <ais-highlight-0000000000>from</ais-highlight-0000000000> a <ais-highlight-0000000000>data</ais-highlight-0000000000> source or <ais-highlight-0000000000>from</ais-highlight-0000000000> a local file. Learn about what settings you can adjust before importing.</td>\n</tr>\n<tr>\n<td>Export datasets</td>\n<td>How to export datasets and AnswerSets. Learn about what settings you can adjust before exporting.</td>\n</tr>\n<tr>\n<td>Profile datasets</td>\n<td>How to generate a profile of a dataset, including information about the quality of the <ais-highlight-0000000000>data</ais-highlight-0000000000>.</td>\n</tr>\n<tr>\n<td>Update datasets with new <ais-highlight-0000000000>data</ais-highlight-0000000000></td>\n<td>How to update the <ais-highlight-0000000000>data</ais-highlight-0000000000> in an existing dataset.</td>\n</tr>\n<tr>\n<td>Update Project datasets</td>\n<td>Learn how to refresh and <ais-highlight-0000000000>rep</ais-highlight-0000000000>lace datasets <ais-highlight-0000000000>using</ais-highlight-0000000000> the <strong>steps</strong> tool.</td>\n</tr>\n</tbody>\n</table>"
+            },
+            "title": {
+              "matchLevel": "none",
+              "matchedWords": [
+
+              ],
+              "value": "Work with datasets"
+            }
+          },
+          "anchor": "work-with-datasets",
+          "breadcrumbs": [
+            "Data",
+            "Data Prep",
+            "Work with datasets"
+          ],
+          "content": "<p>These sections describe how to manage your datasets in Data Prep:</p> <table>\n<thead>\n<tr>\n<th>Topic</th>\n<th>Describes...</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Import datasets</td>\n<td>How to import data from a data source or from a local file. Learn about what settings you can adjust before importing.</td>\n</tr>\n<tr>\n<td>Export datasets</td>\n<td>How to export datasets and AnswerSets. Learn about what settings you can adjust before exporting.</td>\n</tr>\n<tr>\n<td>Profile datasets</td>\n<td>How to generate a profile of a dataset, including information about the quality of the data.</td>\n</tr>\n<tr>\n<td>Update datasets with new data</td>\n<td>How to update the data in an existing dataset.</td>\n</tr>\n<tr>\n<td>Update Project datasets</td>\n<td>Learn how to refresh and replace datasets using the <strong>steps</strong> tool.</td>\n</tr>\n</tbody>\n</table>",
+          "itemType": "tutorials",
+          "objectID": "c0b08ee9-e135-430e-b58d-97cff3a22502",
+          "section": null,
+          "title": "Work with datasets",
+          "toc": null,
+          "url": "/en/data/data-prep-pax/dp-datasets/index.html"
+        },
+        {
+          "_highlightResult": {
+            "content": {
+              "fullyHighlighted": false,
+              "matchLevel": "full",
+              "matchedWords": [
+                "using",
+                "import",
+                "data",
+                "from",
+                "rep"
+              ],
+              "value": "<p>DataRobot <ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep lets you gather, explore, and prepare <ais-highlight-0000000000>data</ais-highlight-0000000000> <ais-highlight-0000000000>from</ais-highlight-0000000000> multiple sources for machine learning. You can save and share your <ais-highlight-0000000000>data</ais-highlight-0000000000> and the steps you used to prepare it.</p> <p>When you think about DataRobot <ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep, think:</p> <ul>\n<li>Libraries where you save the datasets you prep</li>\n<li>Projects where you perform your <ais-highlight-0000000000>data</ais-highlight-0000000000> prep</li>\n<li><ais-highlight-0000000000>Data</ais-highlight-0000000000> that you <ais-highlight-0000000000>import</ais-highlight-0000000000>, clean, and combine</li>\n</ul> <p>These sections describe how to work with <ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep to clean and prepare your <ais-highlight-0000000000>data</ais-highlight-0000000000> for machine learning:</p> <table>\n<thead>\n<tr>\n<th>Topic</th>\n<th>Describes...</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Getting started with <ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep</td>\n<td>Complete the <ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep quickstart and tour the basics of the <ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep Library and Projects.</td>\n</tr>\n<tr>\n<td>Working with datasets</td>\n<td><ais-highlight-0000000000>Import</ais-highlight-0000000000> datasets and perform other dataset operations such as exporting, profiling, and updating.</td>\n</tr>\n<tr>\n<td>Working with Project tools</td>\n<td>Use <ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep Project tools to clean and shape your <ais-highlight-0000000000>data</ais-highlight-0000000000>.</td>\n</tr>\n<tr>\n<td>Working with column <ais-highlight-0000000000>data</ais-highlight-0000000000></td>\n<td>Update the <ais-highlight-0000000000>data</ais-highlight-0000000000> in columns <ais-highlight-0000000000>using</ais-highlight-0000000000> a wide range of column operations.</td>\n</tr>\n<tr>\n<td>Connecting to <ais-highlight-0000000000>data</ais-highlight-0000000000> sources</td>\n<td>Configure your <ais-highlight-0000000000>data</ais-highlight-0000000000> source connections so that you can <ais-highlight-0000000000>import</ais-highlight-0000000000> <ais-highlight-0000000000>data</ais-highlight-0000000000> <ais-highlight-0000000000>from</ais-highlight-0000000000> and export <ais-highlight-0000000000>data</ais-highlight-0000000000> to external systems.</td>\n</tr>\n<tr>\n<td>Automation and operationalization</td>\n<td>Employ workflow automations to reduce the number of <ais-highlight-0000000000>rep</ais-highlight-0000000000>etitive tasks taken to produce AnswerSets.</td>\n</tr>\n<tr>\n<td>Advanced topics</td>\n<td>Create ClicktoPrep links, use interactive mode, and understand <ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep infrastructure and application security.</td>\n</tr>\n</tbody>\n</table>"
+            },
+            "title": {
+              "fullyHighlighted": false,
+              "matchLevel": "partial",
+              "matchedWords": [
+                "data"
+              ],
+              "value": "<ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep"
+            }
+          },
+          "anchor": "data-prep",
+          "breadcrumbs": [
+            "Data",
+            "Data Prep"
+          ],
+          "content": "<p>DataRobot Data Prep lets you gather, explore, and prepare data from multiple sources for machine learning. You can save and share your data and the steps you used to prepare it.</p> <p>When you think about DataRobot Data Prep, think:</p> <ul>\n<li>Libraries where you save the datasets you prep</li>\n<li>Projects where you perform your data prep</li>\n<li>Data that you import, clean, and combine</li>\n</ul> <p>These sections describe how to work with Data Prep to clean and prepare your data for machine learning:</p> <table>\n<thead>\n<tr>\n<th>Topic</th>\n<th>Describes...</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Getting started with Data Prep</td>\n<td>Complete the Data Prep quickstart and tour the basics of the Data Prep Library and Projects.</td>\n</tr>\n<tr>\n<td>Working with datasets</td>\n<td>Import datasets and perform other dataset operations such as exporting, profiling, and updating.</td>\n</tr>\n<tr>\n<td>Working with Project tools</td>\n<td>Use Data Prep Project tools to clean and shape your data.</td>\n</tr>\n<tr>\n<td>Working with column data</td>\n<td>Update the data in columns using a wide range of column operations.</td>\n</tr>\n<tr>\n<td>Connecting to data sources</td>\n<td>Configure your data source connections so that you can import data from and export data to external systems.</td>\n</tr>\n<tr>\n<td>Automation and operationalization</td>\n<td>Employ workflow automations to reduce the number of repetitive tasks taken to produce AnswerSets.</td>\n</tr>\n<tr>\n<td>Advanced topics</td>\n<td>Create ClicktoPrep links, use interactive mode, and understand Data Prep infrastructure and application security.</td>\n</tr>\n</tbody>\n</table>",
+          "itemType": "platform",
+          "objectID": "3bd4cf82-a9ba-496e-baab-8ab5de7d6638",
+          "section": null,
+          "title": "Data Prep",
+          "toc": null,
+          "url": "/en/data/data-prep-pax/index.html"
+        },
+        {
+          "_highlightResult": {
+            "content": {
+              "fullyHighlighted": false,
+              "matchLevel": "full",
+              "matchedWords": [
+                "using",
+                "import",
+                "data",
+                "from",
+                "rep"
+              ],
+              "value": "<p>DataRobot provides tools for managing and preparing the <ais-highlight-0000000000>data</ais-highlight-0000000000> for your machine learning projects. You can manage and prep <ais-highlight-0000000000>data</ais-highlight-0000000000> directly in DataRobot Automated Machine Learning (AutoML), as well as in other tools, such as <ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep. These pages describe how to manage <ais-highlight-0000000000>data</ais-highlight-0000000000> directly in AutoML.</p> <p>These pages describe:</p> <table>\n<thead>\n<tr>\n<th>Topic</th>\n<th>Describes...</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><ais-highlight-0000000000>Import</ais-highlight-0000000000> <ais-highlight-0000000000>data</ais-highlight-0000000000></td>\n<td><ais-highlight-0000000000>Import</ais-highlight-0000000000> <ais-highlight-0000000000>data</ais-highlight-0000000000> <ais-highlight-0000000000>from</ais-highlight-0000000000> a variety of sources.</td>\n</tr>\n<tr>\n<td>Transform <ais-highlight-0000000000>data</ais-highlight-0000000000></td>\n<td>Automatic and manual transformations as well as single-dataset interaction-based feature creation.</td>\n</tr>\n<tr>\n<td>Feature Discovery</td>\n<td>Multi-dataset, interaction-based feature creation.</td>\n</tr>\n<tr>\n<td>Analyze <ais-highlight-0000000000>data</ais-highlight-0000000000></td>\n<td>Investigate <ais-highlight-0000000000>data</ais-highlight-0000000000> <ais-highlight-0000000000>using</ais-highlight-0000000000> <ais-highlight-0000000000>rep</ais-highlight-0000000000>orts and visualizations.</td>\n</tr>\n<tr>\n<td><strong>AI Catalog</strong></td>\n<td>Store <ais-highlight-0000000000>data</ais-highlight-0000000000> for re-use as well as create projects, schedule snapshots, and work with Spark SQL.</td>\n</tr>\n</tbody>\n</table>"
+            },
+            "title": {
+              "fullyHighlighted": false,
+              "matchLevel": "partial",
+              "matchedWords": [
+                "data"
+              ],
+              "value": "<ais-highlight-0000000000>Data</ais-highlight-0000000000> Management"
+            }
+          },
+          "anchor": "data-management",
+          "breadcrumbs": [
+            "Data",
+            "Data Management"
+          ],
+          "content": "<p>DataRobot provides tools for managing and preparing the data for your machine learning projects. You can manage and prep data directly in DataRobot Automated Machine Learning (AutoML), as well as in other tools, such as Data Prep. These pages describe how to manage data directly in AutoML.</p> <p>These pages describe:</p> <table>\n<thead>\n<tr>\n<th>Topic</th>\n<th>Describes...</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Import data</td>\n<td>Import data from a variety of sources.</td>\n</tr>\n<tr>\n<td>Transform data</td>\n<td>Automatic and manual transformations as well as single-dataset interaction-based feature creation.</td>\n</tr>\n<tr>\n<td>Feature Discovery</td>\n<td>Multi-dataset, interaction-based feature creation.</td>\n</tr>\n<tr>\n<td>Analyze data</td>\n<td>Investigate data using reports and visualizations.</td>\n</tr>\n<tr>\n<td><strong>AI Catalog</strong></td>\n<td>Store data for re-use as well as create projects, schedule snapshots, and work with Spark SQL.</td>\n</tr>\n</tbody>\n</table>",
+          "itemType": "api",
+          "objectID": "1c8ac96f-984e-40cd-b82e-ec7a5a8d7cc7",
+          "section": null,
+          "title": "Data Management",
+          "toc": null,
+          "url": "/en/data/data-mgmt/index.html"
+        },
+        {
+          "_highlightResult": {
+            "content": {
+              "fullyHighlighted": false,
+              "matchLevel": "full",
+              "matchedWords": [
+                "using",
+                "import",
+                "data",
+                "from",
+                "rep"
+              ],
+              "value": "<p>To enable Smart Downsampling and specify a sampling percentage, use the <strong>Advanced options</strong> link on the <strong><ais-highlight-0000000000>Data</ais-highlight-0000000000></strong> page:</p> <ol>\n<li>\n<p><ais-highlight-0000000000>Import</ais-highlight-0000000000> a dataset or open a project for which models have not yet been built and enter a target variable that results in a binary classification or zero-boosted regression problem.</p>\n</li>\n<li>\n<p>Click the <strong>Show Advanced options</strong> link and select the <strong>Smart Downsampling</strong> option.</p>\n</li>\n<li>\n<p>Toggle <strong>Downsample <ais-highlight-0000000000>Data</ais-highlight-0000000000></strong> to ON:</p>\n<p></p>\n</li>\n<li>\n<p>By typing in the box or <ais-highlight-0000000000>using</ais-highlight-0000000000> the slider, enter the majority class downsampling percentage rate. Note the following:</p>\n<ul>\n<li>\n<p>The minimum percentage is the smallest percentage allowed. Any rate below the indicated minimum will result in a majority class that is smaller than the minority class.</p>\n</li>\n<li>\n<p>As you change the percentage rate, the majority rows listed under “Results of downsampling…” updates to indicate the new size of the majority class.</p>\n</li>\n</ul>\n</li>\n<li>\n<p>Scroll to the top of the page, choose a modeling method, and click <strong>Start</strong> to begin modeling.</p>\n</li>\n<li>\n<p>When model building is complete, select <strong>Models</strong> <ais-highlight-0000000000>from</ais-highlight-0000000000> the toolbar. The Leaderboard displays an icon indicating that model results are based on downsampling:</p>\n<p></p>\n</li>\n<li>\n<p>Click the icon for a <ais-highlight-0000000000>rep</ais-highlight-0000000000>ort of the downsampling results:</p>\n<p></p>\n</li>\n</ol> <p><ais-highlight-0000000000>From</ais-highlight-0000000000> the <ais-highlight-0000000000>rep</ais-highlight-0000000000>ort, you can see that readmitted=true, the minority class, was not modified by downsampling. The majority class, readmitted=false, was reduced by 25%. In other words, the percentage of the majority class that was maintained was 75%.</p>"
+            },
+            "section": {
+              "matchLevel": "none",
+              "matchedWords": [
+
+              ],
+              "value": "Enable Smart Downsampling"
+            },
+            "title": {
+              "matchLevel": "none",
+              "matchedWords": [
+
+              ],
+              "value": "Smart Downsampling"
+            }
+          },
+          "anchor": "enable-smart-downsampling",
+          "breadcrumbs": [
+            "Modeling",
+            "Build models",
+            "Advanced options",
+            "Smart Downsampling"
+          ],
+          "content": "<p>To enable Smart Downsampling and specify a sampling percentage, use the <strong>Advanced options</strong> link on the <strong>Data</strong> page:</p> <ol>\n<li>\n<p>Import a dataset or open a project for which models have not yet been built and enter a target variable that results in a binary classification or zero-boosted regression problem.</p>\n</li>\n<li>\n<p>Click the <strong>Show Advanced options</strong> link and select the <strong>Smart Downsampling</strong> option.</p>\n</li>\n<li>\n<p>Toggle <strong>Downsample Data</strong> to ON:</p>\n<p></p>\n</li>\n<li>\n<p>By typing in the box or using the slider, enter the majority class downsampling percentage rate. Note the following:</p>\n<ul>\n<li>\n<p>The minimum percentage is the smallest percentage allowed. Any rate below the indicated minimum will result in a majority class that is smaller than the minority class.</p>\n</li>\n<li>\n<p>As you change the percentage rate, the majority rows listed under “Results of downsampling…” updates to indicate the new size of the majority class.</p>\n</li>\n</ul>\n</li>\n<li>\n<p>Scroll to the top of the page, choose a modeling method, and click <strong>Start</strong> to begin modeling.</p>\n</li>\n<li>\n<p>When model building is complete, select <strong>Models</strong> from the toolbar. The Leaderboard displays an icon indicating that model results are based on downsampling:</p>\n<p></p>\n</li>\n<li>\n<p>Click the icon for a report of the downsampling results:</p>\n<p></p>\n</li>\n</ol> <p>From the report, you can see that readmitted=true, the minority class, was not modified by downsampling. The majority class, readmitted=false, was reduced by 25%. In other words, the percentage of the majority class that was maintained was 75%.</p>",
+          "itemType": "tutorials",
+          "objectID": "504ae2e0-bc19-46c2-bf9b-7e7bbfa8f7d0",
+          "section": "Enable Smart Downsampling",
+          "title": "Smart Downsampling",
+          "toc": [
+            "Conditions for Smart Downsampling",
+            [
+              "Enable Smart Downsampling"
+            ]
+          ],
+          "url": "/en/modeling/build-models/adv-opt/smart-ds.html"
+        },
+        {
+          "_highlightResult": {
+            "content": {
+              "fullyHighlighted": false,
+              "matchLevel": "full",
+              "matchedWords": [
+                "using",
+                "import",
+                "data",
+                "from",
+                "rep"
+              ],
+              "value": "<p>To select a dataset <ais-highlight-0000000000>from</ais-highlight-0000000000> a connected <ais-highlight-0000000000>data</ais-highlight-0000000000> source:</p> <ol>\n<li>\n<p>Click <strong>Select <ais-highlight-0000000000>Data</ais-highlight-0000000000> Source</strong> and choose the <ais-highlight-0000000000>data</ais-highlight-0000000000> source you want to use.</p>\n</li>\n<li>\n<p>Locate the dataset you want to <ais-highlight-0000000000>import</ais-highlight-0000000000>. </p>\n<p>To locate your dataset <ais-highlight-0000000000>using</ais-highlight-0000000000> search, see Search for datasets.</p>\n</li>\n<li>\n<p>To select a dataset, click <strong>Select</strong>.</p>\n<p>The dataset is added to the list in the <strong>You selected</strong> pane. <ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep displays the <strong>Your options</strong> pane for the dataset and a preview of the dataset.</p>\n</li>\n<li>\n<p>To add more datasets <ais-highlight-0000000000>from</ais-highlight-0000000000> the currently selected <ais-highlight-0000000000>data</ais-highlight-0000000000> source, click any additional dataset you want to include in the <ais-highlight-0000000000>import</ais-highlight-0000000000>.</p>\n</li>\n<li>\n<p>To add more datasets <ais-highlight-0000000000>from</ais-highlight-0000000000> a different <ais-highlight-0000000000>data</ais-highlight-0000000000> source, <ais-highlight-0000000000>rep</ais-highlight-0000000000>eat steps 1 - 3 for each <ais-highlight-0000000000>data</ais-highlight-0000000000> source.</p>\n</li>\n</ol> <p>The additional datasets are added to the datasets list in the <strong>You selected</strong> pane.</p>"
+            },
+            "section": {
+              "fullyHighlighted": false,
+              "matchLevel": "partial",
+              "matchedWords": [
+                "data",
+                "from"
+              ],
+              "value": "Select datasets <ais-highlight-0000000000>from</ais-highlight-0000000000> a <ais-highlight-0000000000>data</ais-highlight-0000000000> source"
+            },
+            "title": {
+              "fullyHighlighted": false,
+              "matchLevel": "partial",
+              "matchedWords": [
+                "import"
+              ],
+              "value": "<ais-highlight-0000000000>Import</ais-highlight-0000000000> datasets"
+            }
+          },
+          "anchor": "select-datasets-from-a-data-source",
+          "breadcrumbs": [
+            "Data",
+            "Data Prep",
+            "Work with datasets",
+            "Import datasets"
+          ],
+          "content": "<p>To select a dataset from a connected data source:</p> <ol>\n<li>\n<p>Click <strong>Select Data Source</strong> and choose the data source you want to use.</p>\n</li>\n<li>\n<p>Locate the dataset you want to import. </p>\n<p>To locate your dataset using search, see Search for datasets.</p>\n</li>\n<li>\n<p>To select a dataset, click <strong>Select</strong>.</p>\n<p>The dataset is added to the list in the <strong>You selected</strong> pane. Data Prep displays the <strong>Your options</strong> pane for the dataset and a preview of the dataset.</p>\n</li>\n<li>\n<p>To add more datasets from the currently selected data source, click any additional dataset you want to include in the import.</p>\n</li>\n<li>\n<p>To add more datasets from a different data source, repeat steps 1 - 3 for each data source.</p>\n</li>\n</ol> <p>The additional datasets are added to the datasets list in the <strong>You selected</strong> pane.</p>",
+          "itemType": "api",
+          "objectID": "11ab5e83-ea30-4106-8782-8fed6d20536e",
+          "section": "Select datasets from a data source",
+          "title": "Import datasets",
+          "toc": [
+            "Using the Import page",
+            "Snapshot of the import process",
+            "Select datasets",
+            [
+              "Select Datasets pane",
+              [
+                "Select datasets from local files",
+                "Select datasets from a data source"
+              ]
+            ],
+            "Search for datasets",
+            [
+              "Search for a dataset",
+              "Query a database",
+              "Wildcard characters",
+              [
+                "Example searches using wildcards"
+              ]
+            ],
+            "Combine datasets",
+            [
+              "Guidelines for combining datasets",
+              "Data sources that support globbing",
+              "Create a glob"
+            ],
+            "Preview a dataset before import",
+            "Add a dataset again",
+            "Adjust import settings",
+            "Supported Formats"
+          ],
+          "url": "/en/data/data-prep-pax/dp-datasets/dp-dataset-import.html"
+        },
+        {
+          "_highlightResult": {
+            "content": {
+              "fullyHighlighted": false,
+              "matchLevel": "full",
+              "matchedWords": [
+                "using",
+                "import",
+                "data",
+                "from",
+                "rep"
+              ],
+              "value": "<ul>\n<li>For ad hoc <ais-highlight-0000000000>rep</ais-highlight-0000000000>orting, <ais-highlight-0000000000>using</ais-highlight-0000000000> this Connector is the recommended path.</li>\n<li>\n<p>For automated <ais-highlight-0000000000>rep</ais-highlight-0000000000>orting/updating published dashboards, there are several approaches worth considering as automating a process on a Desktop is not possible. Here’s one approach that we’ve seen be successful in several situations:</p>\n</li>\n<li>\n<p>Automate your <ais-highlight-0000000000>data</ais-highlight-0000000000> preparation in <ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep and export to a storage location that can be directly queried by a published PowerBI Dashboard, such as ADLS Gen2.</p>\n</li>\n<li><ais-highlight-0000000000>Using</ais-highlight-0000000000> a separate automation on the PowerBI side, <ais-highlight-0000000000>import</ais-highlight-0000000000> the <ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep AnswerSet into PowerBI <ais-highlight-0000000000>from</ais-highlight-0000000000> the shared location.</li>\n</ul> <p>If you have further questions, contact your <ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep Customer Success <ais-highlight-0000000000>Rep</ais-highlight-0000000000>resentative.</p>"
+            },
+            "section": {
+              "matchLevel": "none",
+              "matchedWords": [
+
+              ],
+              "value": "Best Practices"
+            },
+            "title": {
+              "matchLevel": "none",
+              "matchedWords": [
+
+              ],
+              "value": "PowerBI Connector"
+            }
+          },
+          "anchor": "best-practices",
+          "breadcrumbs": [
+            "Data",
+            "Data Prep",
+            "Connect to data sources",
+            "PowerBI Connector"
+          ],
+          "content": "<ul>\n<li>For ad hoc reporting, using this Connector is the recommended path.</li>\n<li>\n<p>For automated reporting/updating published dashboards, there are several approaches worth considering as automating a process on a Desktop is not possible. Here’s one approach that we’ve seen be successful in several situations:</p>\n</li>\n<li>\n<p>Automate your data preparation in Data Prep and export to a storage location that can be directly queried by a published PowerBI Dashboard, such as ADLS Gen2.</p>\n</li>\n<li>Using a separate automation on the PowerBI side, import the Data Prep AnswerSet into PowerBI from the shared location.</li>\n</ul> <p>If you have further questions, contact your Data Prep Customer Success Representative.</p>",
+          "itemType": "tutorials",
+          "objectID": "bab3916d-7c72-40be-9144-577f3809d8e7",
+          "section": "Best Practices",
+          "title": "PowerBI Connector",
+          "toc": [
+            "To Configure",
+            "Best Practices"
+          ],
+          "url": "/en/data/data-prep-pax/dp-connect/dp-conn-powerbi.html"
+        },
+        {
+          "_highlightResult": {
+            "content": {
+              "fullyHighlighted": false,
+              "matchLevel": "full",
+              "matchedWords": [
+                "using",
+                "import",
+                "data",
+                "from",
+                "rep"
+              ],
+              "value": "<p>DataRobot provides a variety of methods for making predictions via the UI (at least, launched <ais-highlight-0000000000>from</ais-highlight-0000000000> the UI). Each is briefly described in the table below. Review the deployment considerations before proceeding:</p> <table>\n<thead>\n<tr>\n<th>Use this method...</th>\n<th>When you...</th>\n<th>Notes</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Make Predictions</td>\n<td>Want in-app predictions</td>\n<td>You can either: <ul><li> Make predictions on a new dataset (up to 1GB, by default) without coding  </li><li> Make out-of-sample predictions on your original dataset, including holdout and/or validation partitions of large files. </li></ul></td>\n</tr>\n<tr>\n<td>Deploy</td>\n<td>Have a dedicated server</td>\n<td>Provides a code sample for use with:  <ul><li> Real-time scoring with the Prediction API </li><li> Near real-time (score multiple rows at a time continuously) or batch cases (scheduled scoring of multiple rows of <ais-highlight-0000000000>data</ais-highlight-0000000000>) with Python batch scoring </li></ul></td>\n</tr>\n<tr>\n<td>DataRobot Prime</td>\n<td>Want out-of-app predictions</td>\n<td>Produces scoring code that is an approximation of a selected model, creating a simplified version that describes \"business rules\" for predictions.</td>\n</tr>\n<tr>\n<td>Downloads</td>\n<td>Want out-of-app, exact <ais-highlight-0000000000>rep</ais-highlight-0000000000>roducibility of predictions</td>\n<td>Either: <ul><li> Export exact, validated Java scoring code for a model that is easily deployable for low-latency, offline predictions.    </li><li> Create an isolated and stable environment for your prediction system with a standalone Prediction API. </li></ul></td>\n</tr>\n<tr>\n<td>Transfer models</td>\n<td>Want to transfer a model to a Standalone Prediction Server for increased robustness</td>\n<td>Export with the Downloads tab, <ais-highlight-0000000000>import</ais-highlight-0000000000> <ais-highlight-0000000000>using</ais-highlight-0000000000> Manage Predictions.</td>\n</tr>\n<tr>\n<td>Deploy to Hadoop</td>\n<td>Run on Hadoop</td>\n<td>To score <ais-highlight-0000000000>data</ais-highlight-0000000000> that resides in an HDFS that is connected to DataRobot.</td>\n</tr>\n</tbody>\n</table> <p>Alternatively, you can use the DataRobot API prediction functions if you want to use the same interface for modeling and predictions. Note that some of the tools used for deeper model investigation are only available through the DataRobot GUI.</p> <div class=\"admonition warning\">\n<p class=\"admonition-title\">Warning</p>\n<p>When performing predictions, the positive class has multiple <ais-highlight-0000000000>rep</ais-highlight-0000000000>resentations that DataRobot can choose <ais-highlight-0000000000>from</ais-highlight-0000000000>, <ais-highlight-0000000000>from</ais-highlight-0000000000> the original positive class as written on the dataset, a user specified choice in the frontend, or the positive class as provided by the prediction set. Currently DataRobot's internal rules regarding this are not obvious, which can lead to automation issues like str(\"1.0\") being returned as the positive class instead of int(1). This issue is being fixed by standardizing the internal ruleset in a future release.</p>\n</div>"
+            },
+            "title": {
+              "matchLevel": "none",
+              "matchedWords": [
+
+              ],
+              "value": "UI prediction options"
+            }
+          },
+          "anchor": "ui-prediction-options",
+          "breadcrumbs": [
+            "Predictions",
+            "UI prediction options"
+          ],
+          "content": "<p>DataRobot provides a variety of methods for making predictions via the UI (at least, launched from the UI). Each is briefly described in the table below. Review the deployment considerations before proceeding:</p> <table>\n<thead>\n<tr>\n<th>Use this method...</th>\n<th>When you...</th>\n<th>Notes</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Make Predictions</td>\n<td>Want in-app predictions</td>\n<td>You can either: <ul><li> Make predictions on a new dataset (up to 1GB, by default) without coding  </li><li> Make out-of-sample predictions on your original dataset, including holdout and/or validation partitions of large files. </li></ul></td>\n</tr>\n<tr>\n<td>Deploy</td>\n<td>Have a dedicated server</td>\n<td>Provides a code sample for use with:  <ul><li> Real-time scoring with the Prediction API </li><li> Near real-time (score multiple rows at a time continuously) or batch cases (scheduled scoring of multiple rows of data) with Python batch scoring </li></ul></td>\n</tr>\n<tr>\n<td>DataRobot Prime</td>\n<td>Want out-of-app predictions</td>\n<td>Produces scoring code that is an approximation of a selected model, creating a simplified version that describes \"business rules\" for predictions.</td>\n</tr>\n<tr>\n<td>Downloads</td>\n<td>Want out-of-app, exact reproducibility of predictions</td>\n<td>Either: <ul><li> Export exact, validated Java scoring code for a model that is easily deployable for low-latency, offline predictions.    </li><li> Create an isolated and stable environment for your prediction system with a standalone Prediction API. </li></ul></td>\n</tr>\n<tr>\n<td>Transfer models</td>\n<td>Want to transfer a model to a Standalone Prediction Server for increased robustness</td>\n<td>Export with the Downloads tab, import using Manage Predictions.</td>\n</tr>\n<tr>\n<td>Deploy to Hadoop</td>\n<td>Run on Hadoop</td>\n<td>To score data that resides in an HDFS that is connected to DataRobot.</td>\n</tr>\n</tbody>\n</table> <p>Alternatively, you can use the DataRobot API prediction functions if you want to use the same interface for modeling and predictions. Note that some of the tools used for deeper model investigation are only available through the DataRobot GUI.</p> <div class=\"admonition warning\">\n<p class=\"admonition-title\">Warning</p>\n<p>When performing predictions, the positive class has multiple representations that DataRobot can choose from, from the original positive class as written on the dataset, a user specified choice in the frontend, or the positive class as provided by the prediction set. Currently DataRobot's internal rules regarding this are not obvious, which can lead to automation issues like str(\"1.0\") being returned as the positive class instead of int(1). This issue is being fixed by standardizing the internal ruleset in a future release.</p>\n</div>",
+          "itemType": "platform",
+          "objectID": "7bf7a602-8119-49a3-8ef8-3c7fb7e0b73d",
+          "section": null,
+          "title": "UI prediction options",
+          "toc": [
+            "Avoiding common mistakes",
+            "Notes on prediction speed"
+          ],
+          "url": "/en/predictions/ui/index.html"
+        },
+        {
+          "_highlightResult": {
+            "content": {
+              "fullyHighlighted": false,
+              "matchLevel": "partial",
+              "matchedWords": [
+                "using",
+                "data",
+                "from",
+                "rep"
+              ],
+              "value": "<ul>\n<li>MicroStrategy does not support boolean <ais-highlight-0000000000>data</ais-highlight-0000000000>-types. Hence, while exporting <ais-highlight-0000000000>from</ais-highlight-0000000000> <ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep, all boolean values will be exported as strings (“true” or “false”).</li>\n<li><strong>Exporting <ais-highlight-0000000000>rep</ais-highlight-0000000000>orts:</strong><ul>\n<li>MicroStrategy <ais-highlight-0000000000>rep</ais-highlight-0000000000>orts can be imported, but the MicroStrategy Connector does not support the ability to update a <ais-highlight-0000000000>rep</ais-highlight-0000000000>ort upon Export.</li>\n</ul>\n</li>\n<li><strong>Exporting to cubes:</strong><ul>\n<li>The MicroStrategy Connector does not support exporting <ais-highlight-0000000000>data</ais-highlight-0000000000> to a cube with more than one table.</li>\n<li>The MicroStrategy Connector utilizes REST API, thus it does not support updating cubes upon export that were made <ais-highlight-0000000000>using</ais-highlight-0000000000> the MicroStrategy Web UI (or by any means other than the REST API).</li>\n<li>Exporting to an existing cube will not be possible if the schema (in the <ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep AnswerSet) does not match the schema of the cube.</li>\n<li>When a column is added in the AnswerSet, new or updated rows will be appended to the cube but the new column will not be added to the cube.</li>\n</ul>\n</li>\n</ul>"
+            },
+            "section": {
+              "fullyHighlighted": false,
+              "matchLevel": "partial",
+              "matchedWords": [
+                "import"
+              ],
+              "value": "<ais-highlight-0000000000>Import</ais-highlight-0000000000>/Export Information"
+            },
+            "title": {
+              "matchLevel": "none",
+              "matchedWords": [
+
+              ],
+              "value": "MicroStrategy Connector"
+            }
+          },
+          "anchor": "importexport-information",
+          "breadcrumbs": [
+            "Data",
+            "Data Prep",
+            "Connect to data sources",
+            "MicroStrategy Connector"
+          ],
+          "content": "<ul>\n<li>MicroStrategy does not support boolean data-types. Hence, while exporting from Data Prep, all boolean values will be exported as strings (“true” or “false”).</li>\n<li><strong>Exporting reports:</strong><ul>\n<li>MicroStrategy reports can be imported, but the MicroStrategy Connector does not support the ability to update a report upon Export.</li>\n</ul>\n</li>\n<li><strong>Exporting to cubes:</strong><ul>\n<li>The MicroStrategy Connector does not support exporting data to a cube with more than one table.</li>\n<li>The MicroStrategy Connector utilizes REST API, thus it does not support updating cubes upon export that were made using the MicroStrategy Web UI (or by any means other than the REST API).</li>\n<li>Exporting to an existing cube will not be possible if the schema (in the Data Prep AnswerSet) does not match the schema of the cube.</li>\n<li>When a column is added in the AnswerSet, new or updated rows will be appended to the cube but the new column will not be added to the cube.</li>\n</ul>\n</li>\n</ul>",
+          "itemType": "platform",
+          "objectID": "0d5fb014-feba-47da-b429-f66ef577a904",
+          "section": "Import/Export Information",
+          "title": "MicroStrategy Connector",
+          "toc": [
+            "Configure Data Prep",
+            [
+              "General",
+              "MicroStrategy Configuration",
+              "Credentials",
+              "Export Configuration",
+              "Web Proxy"
+            ],
+            "Import/Export Information"
+          ],
+          "url": "/en/data/data-prep-pax/dp-connect/dp-conn-microstrategy.html"
+        },
+        {
+          "_highlightResult": {
+            "content": {
+              "fullyHighlighted": false,
+              "matchLevel": "full",
+              "matchedWords": [
+                "using",
+                "import",
+                "data",
+                "from",
+                "rep"
+              ],
+              "value": "<p>You must complete the following before importing Scoring Code models to Azure ML:</p> <ul>\n<li>\n<p>Install the Azure CLI client to configure your service to the terminal.</p>\n</li>\n<li>\n<p>Install the Azure Machine Learning CLI extension.</p>\n</li>\n<li>\n<p>Login to Azure with the login command.</p>\n<pre><code>az login\n</code></pre>\n</li>\n<li>\n<p>If you have not yet created a resource group, you can create one <ais-highlight-0000000000>using</ais-highlight-0000000000> this command:</p>\n<pre><code>az group create --location --name [--subscription] [--tags]\n</code></pre>\n<p>For example:</p>\n<pre><code>az group create --location westus2 --name myresourcegroup\n</code></pre>\n</li>\n<li>\n<p>If you do not have an existing container registry that you want to use for storing custom Docker images, you must create one. If you want to use a DataRobot Docker image instead of building your own, you do not need to create a container registry. Instead, skip ahead to step 6.</p>\n<p>Create a container with the following command:</p>\n<pre><code>az acr create --name --resource-group --sku {Basic | Classic | Premium | Standard}\n[--admin-enabled {false | true}] [--default-action {Allow | Deny}] [--location]\n[--subscription] [--tags] [--workspace]\n</code></pre>\n<p>For example:</p>\n<pre><code>az acr create --name mycontainerregistry --resource-group myresourcegroup --sku Basic\n</code></pre>\n</li>\n<li>\n<p>Set up admin access <ais-highlight-0000000000>using</ais-highlight-0000000000> the following commands:</p>\n<pre><code>az acr update --name --admin-enabled {false | true}\n</code></pre>\n<p>For example:</p>\n<pre><code>az acr update --name mycontainerregistry --admin-enabled true\n</code></pre>\n<p>And print the registry credentials:</p>\n<pre><code>az acr credential show --name\n</code></pre>\n<p>For example:</p>\n<pre><code>az acr credential show --name mycontainerregistry\n</code></pre>\n<p>Returns:</p>\n<pre><code>{\n  \"passwords\": [\n    {\n      \"name\": \"password\",\n      \"value\": &lt;password&gt;\n    },\n    {\n      \"name\": \"password2\",\n      \"value\": &lt;password&gt;\n    }\n  ],\n  \"username\": mycontainerregistry\n}\n</code></pre>\n</li>\n<li>\n<p>Upload a custom Docker image that runs Java:</p>\n<pre><code>az acr build --registry [--auth-mode {Default | None}] [--build-arg] [--file] [--image]\n[--no-format] [--no-logs] [--no-push] [--no-wait] [--platform] [--resource-group]\n[--secret-build-arg] [--subscription] [--target] [--timeout] []\n</code></pre>\n<p>For example:</p>\n<pre><code>az acr build --registry mycontainerregistry --image myImage:1 --resource-group myresourcegroup --file Dockerfile .\n</code></pre>\n<p>The following is an example of a custom Docker image. Reference the Microsoft documentation to read more about building an image.</p>\n<pre><code><ais-highlight-0000000000>FROM</ais-highlight-0000000000> ubuntu:16.04\n\nARG CONDA_VERSION=4.5.12\nARG PYTHON_VERSION=3.6\n\nENV LANG=C.UTF-8 LC_ALL=C.UTF-8\nENV PATH /opt/miniconda/bin:$PATH\n\nRUN apt-get update --fix-missing &amp;&amp; \\\n    apt-get install -y wget bzip2 &amp;&amp; \\\n    apt-get clean &amp;&amp; \\\n    rm -rf /var/lib/apt/lists/*\n\nRUN wget --quiet https://<ais-highlight-0000000000>rep</ais-highlight-0000000000>o.anaconda.com/miniconda/Miniconda3-${CONDA_VERSION}-Linux-x86_64.sh -O ~/miniconda.sh &amp;&amp; \\\n    /bin/bash ~/miniconda.sh -b -p /opt/miniconda &amp;&amp; \\\n    rm ~/miniconda.sh &amp;&amp; \\\n    /opt/miniconda/bin/conda clean -tipsy\n\nRUN conda install -y conda=${CONDA_VERSION} python=${PYTHON_VERSION} &amp;&amp; \\\n    conda clean -aqy &amp;&amp; \\\n    rm -rf /opt/miniconda/pkgs &amp;&amp; \\\n    find / -type d -name __pycache__ -prune -exec rm -rf {} \\;\n\nRUN apt-get update &amp;&amp; \\\n    apt-get upgrade -y &amp;&amp; \\\n    apt-get install software-properties-common -y &amp;&amp; \\\n    add-apt-<ais-highlight-0000000000>rep</ais-highlight-0000000000>ository ppa:openjdk-r/ppa -y &amp;&amp; \\\n    apt-get update -q &amp;&amp; \\\n    apt-get install -y openjdk-11-jdk &amp;&amp; \\\n    apt-get clean\n</code></pre>\n</li>\n<li>\n<p>If you have not already created a workspace, use the following command to create one. Otherwise, skip to step 7.</p>\n<pre><code>az ml workspace create --workspace-name [--application-insights] [--container-registry]\n[--exist-ok] [--friendly-name] [--keyvault] [--location] [--resource-group] [--sku]\n[--storage-account] [--yes]\n</code></pre>\n<p>For example:</p>\n<pre><code>az ml workspace create --workspace-name myworkspace --resource-group myresourcegroup\n</code></pre>\n</li>\n<li>\n<p>Register your Scoring Code model to the Azure model storage. Make sure you have exported your JAR file <ais-highlight-0000000000>from</ais-highlight-0000000000> DataRobot before proceeding:</p>\n<pre><code>az ml model register --name [--asset-path] [--cc] [--description] [--experiment-name]\n[--gb] [--gc] [--model-framework] [--model-framework-version] [--model-path]\n[--output-metadata-file] [--path] [--property] [--resource-group] [--run-id]\n[--run-metadata-file] [--sample-input-dataset-id] [--sample-output-dataset-id]\n[--tag] [--workspace-name] [-v]\n</code></pre>\n<p>For example, to register model named <code>codegenmodel</code>:</p>\n<pre><code>az ml model register --name codegenmodel --model-path 5cd071deef881f011a334c2f.jar --resource-group myresourcegroup --workspace-name myworkspace\n</code></pre>\n</li>\n<li>\n<p>Prepare two configs and a Python entry script that will execute the prediction.</p>\n<p>Below are some examples of configs with a Python entry script.</p>\n<ul>\n<li>\n<p><code>deploymentconfig.json</code>:</p>\n<pre><code>{\n    \"computeType\": \"aci\",\n    \"containerResourceRequirements\": {\n        \"cpu\": 0.5,\n        \"memoryInGB\": 1.0\n    },\n    \"authEnabled\": true,\n    \"sslEnabled\": false,\n    \"appInsightsEnabled\": false\n}\n</code></pre>\n</li>\n<li>\n<p><code>inferenceconfig.json</code> (if you are <em>not</em> <ais-highlight-0000000000>using</ais-highlight-0000000000> a DataRobot Docker image):</p>\n<pre><code>{\n    \"entryScript\": \"score.py\",\n    \"runtime\": \"python\",\n    \"enableGpu\": false,\n    \"baseImage\": \"&lt;container-registry-name&gt;.azurecr.io/&lt;Docker-image-name&gt;\",\n    \"baseImageRegistry\": {\n        \"address\": \"&lt;container-registry-name&gt;.azurecr.io\",\n        \"password\": &lt;password <ais-highlight-0000000000>from</ais-highlight-0000000000> the step 2&gt;,\n        \"username\": &lt;container-registry-name&gt;\n    }\n}\n</code></pre>\n</li>\n<li>\n<p><code>inferenceconfig.json</code>(if you <em>are</em> <ais-highlight-0000000000>using</ais-highlight-0000000000> a DataRobot Docker image):</p>\n<pre><code>{\n    \"entryScript\": \"score.py\",\n    \"runtime\": \"python\",\n    \"enableGpu\": false,\n    \"baseImage\": \"datarobot/scoring-inference-code-azure:latest\",\n    \"baseImageRegistry\": {\n        \"address\": \"registry.hub.docker.com\"\n    }\n}\n</code></pre>\n</li>\n<li>\n<p><code>score.py</code>:</p>\n<pre><code><ais-highlight-0000000000>import</ais-highlight-0000000000> os\n<ais-highlight-0000000000>import</ais-highlight-0000000000> subprocess\n<ais-highlight-0000000000>import</ais-highlight-0000000000> tempfile\n<ais-highlight-0000000000>import</ais-highlight-0000000000> json\n<ais-highlight-0000000000>from</ais-highlight-0000000000> azureml.core <ais-highlight-0000000000>import</ais-highlight-0000000000> Model\n\n# Called when the deployed service starts\n\ndef init():\npass\n\n# Handle requests to the service\n\ndef run(<ais-highlight-0000000000>data</ais-highlight-0000000000>):\n    try:\n        result_csv = ''\n        <ais-highlight-0000000000>data</ais-highlight-0000000000> = json.loads(<ais-highlight-0000000000>data</ais-highlight-0000000000>)\n        # Access your model registered in step 6\n        model_path = Model.get_model_path('codegenmodel')        \n        with tempfile.NamedTemporaryFile() as output_file:\n            p = subprocess.run(['java', '-jar', model_path, 'csv', '--input=-',\n'--output={}'.format(output_file.name)], input=bytearray(<ais-highlight-0000000000>data</ais-highlight-0000000000>['csv'].encode('utf-8')), stdout=subprocess.PIPE)\n            with open(output_file.name) as result_file:\n                result_csv = result_file.read()\n\n# Return prediction\n\nreturn result_csv\nexcept Exception as e:\n    error = str(e)\n    return error\n</code></pre>\n</li>\n</ul>\n</li>\n<li>\n<p>Create a new prediction endpoint:</p>\n<pre><code>az ml model deploy --name [--ae] [--ai] [--ar] [--as] [--at] [--autoscale-max-<ais-highlight-0000000000>rep</ais-highlight-0000000000>licas]\n[--autoscale-min-<ais-highlight-0000000000>rep</ais-highlight-0000000000>licas] [--base-image] [--base-image-registry] [--cc] [--cf]\n[--collect-model-<ais-highlight-0000000000>data</ais-highlight-0000000000>] [--compute-target] [--compute-type] [--cuda-version] [--dc]\n[--description] [--dn] [--ds] [--ed] [--eg] [--entry-script] [--environment-name]\n[--environment-version] [--failure-threshold] [--gb] [--gc] [--ic] [--id] [--kp]\n[--ks] [--lo] [--max-request-wait-time] [--model] [--model-metadata-file] [--namespace]\n[--no-wait] [--nr] [--overwrite] [--path] [--period-seconds] [--pi] [--po] [--property]\n[--<ais-highlight-0000000000>rep</ais-highlight-0000000000>lica-max-concurrent-requests] [--resource-group] [--rt] [--sc] [--scoring-timeout-ms]\n[--sd] [--se] [--sk] [--sp] [--st] [--tag] [--timeout-seconds] [--token-auth-enabled]\n[--workspace-name] [-v]\n</code></pre>\n<p>For example, to create a new endpoint with the name <code>myservice</code>:</p>\n<pre><code>az ml model deploy --name myservice --model codegenmodel:1 --compute-target akscomputetarget --ic inferenceconfig.json --dc deploymentconfig.json --resource-group myresourcegroup --workspace-name myworkspace\n</code></pre>\n</li>\n<li>\n<p>Get a token to make prediction requests:</p>\n<pre><code>az ml service get-keys --name [--path] [--resource-group] [--workspace-name] [-v]\n</code></pre>\n<p>For example:</p>\n<pre><code>az ml service get-keys --name myservice --resource-group myresourcegroup --workspace-name myworkspace\n</code></pre>\n<p>This command returns a JSON response:</p>\n<pre><code>{\n    \"primaryKey\": &lt;key&gt;,\n    \"secondaryKey\": &lt;key&gt;\n}\n</code></pre>\n</li>\n</ul> <p>You can now make prediction requests <ais-highlight-0000000000>using</ais-highlight-0000000000> Azure.</p>"
+            },
+            "title": {
+              "fullyHighlighted": false,
+              "matchLevel": "partial",
+              "matchedWords": [
+                "import"
+              ],
+              "value": "<ais-highlight-0000000000>Import</ais-highlight-0000000000> to Azure ML"
+            }
+          },
+          "anchor": "import-to-azure-ml",
+          "breadcrumbs": [
+            "Predictions",
+            "Scoring Code",
+            "Import to Azure ML"
+          ],
+          "content": "<p>You must complete the following before importing Scoring Code models to Azure ML:</p> <ul>\n<li>\n<p>Install the Azure CLI client to configure your service to the terminal.</p>\n</li>\n<li>\n<p>Install the Azure Machine Learning CLI extension.</p>\n</li>\n<li>\n<p>Login to Azure with the login command.</p>\n<pre><code>az login\n</code></pre>\n</li>\n<li>\n<p>If you have not yet created a resource group, you can create one using this command:</p>\n<pre><code>az group create --location --name [--subscription] [--tags]\n</code></pre>\n<p>For example:</p>\n<pre><code>az group create --location westus2 --name myresourcegroup\n</code></pre>\n</li>\n<li>\n<p>If you do not have an existing container registry that you want to use for storing custom Docker images, you must create one. If you want to use a DataRobot Docker image instead of building your own, you do not need to create a container registry. Instead, skip ahead to step 6.</p>\n<p>Create a container with the following command:</p>\n<pre><code>az acr create --name --resource-group --sku {Basic | Classic | Premium | Standard}\n[--admin-enabled {false | true}] [--default-action {Allow | Deny}] [--location]\n[--subscription] [--tags] [--workspace]\n</code></pre>\n<p>For example:</p>\n<pre><code>az acr create --name mycontainerregistry --resource-group myresourcegroup --sku Basic\n</code></pre>\n</li>\n<li>\n<p>Set up admin access using the following commands:</p>\n<pre><code>az acr update --name --admin-enabled {false | true}\n</code></pre>\n<p>For example:</p>\n<pre><code>az acr update --name mycontainerregistry --admin-enabled true\n</code></pre>\n<p>And print the registry credentials:</p>\n<pre><code>az acr credential show --name\n</code></pre>\n<p>For example:</p>\n<pre><code>az acr credential show --name mycontainerregistry\n</code></pre>\n<p>Returns:</p>\n<pre><code>{\n  \"passwords\": [\n    {\n      \"name\": \"password\",\n      \"value\": &lt;password&gt;\n    },\n    {\n      \"name\": \"password2\",\n      \"value\": &lt;password&gt;\n    }\n  ],\n  \"username\": mycontainerregistry\n}\n</code></pre>\n</li>\n<li>\n<p>Upload a custom Docker image that runs Java:</p>\n<pre><code>az acr build --registry [--auth-mode {Default | None}] [--build-arg] [--file] [--image]\n[--no-format] [--no-logs] [--no-push] [--no-wait] [--platform] [--resource-group]\n[--secret-build-arg] [--subscription] [--target] [--timeout] []\n</code></pre>\n<p>For example:</p>\n<pre><code>az acr build --registry mycontainerregistry --image myImage:1 --resource-group myresourcegroup --file Dockerfile .\n</code></pre>\n<p>The following is an example of a custom Docker image. Reference the Microsoft documentation to read more about building an image.</p>\n<pre><code>FROM ubuntu:16.04\n\nARG CONDA_VERSION=4.5.12\nARG PYTHON_VERSION=3.6\n\nENV LANG=C.UTF-8 LC_ALL=C.UTF-8\nENV PATH /opt/miniconda/bin:$PATH\n\nRUN apt-get update --fix-missing &amp;&amp; \\\n    apt-get install -y wget bzip2 &amp;&amp; \\\n    apt-get clean &amp;&amp; \\\n    rm -rf /var/lib/apt/lists/*\n\nRUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-${CONDA_VERSION}-Linux-x86_64.sh -O ~/miniconda.sh &amp;&amp; \\\n    /bin/bash ~/miniconda.sh -b -p /opt/miniconda &amp;&amp; \\\n    rm ~/miniconda.sh &amp;&amp; \\\n    /opt/miniconda/bin/conda clean -tipsy\n\nRUN conda install -y conda=${CONDA_VERSION} python=${PYTHON_VERSION} &amp;&amp; \\\n    conda clean -aqy &amp;&amp; \\\n    rm -rf /opt/miniconda/pkgs &amp;&amp; \\\n    find / -type d -name __pycache__ -prune -exec rm -rf {} \\;\n\nRUN apt-get update &amp;&amp; \\\n    apt-get upgrade -y &amp;&amp; \\\n    apt-get install software-properties-common -y &amp;&amp; \\\n    add-apt-repository ppa:openjdk-r/ppa -y &amp;&amp; \\\n    apt-get update -q &amp;&amp; \\\n    apt-get install -y openjdk-11-jdk &amp;&amp; \\\n    apt-get clean\n</code></pre>\n</li>\n<li>\n<p>If you have not already created a workspace, use the following command to create one. Otherwise, skip to step 7.</p>\n<pre><code>az ml workspace create --workspace-name [--application-insights] [--container-registry]\n[--exist-ok] [--friendly-name] [--keyvault] [--location] [--resource-group] [--sku]\n[--storage-account] [--yes]\n</code></pre>\n<p>For example:</p>\n<pre><code>az ml workspace create --workspace-name myworkspace --resource-group myresourcegroup\n</code></pre>\n</li>\n<li>\n<p>Register your Scoring Code model to the Azure model storage. Make sure you have exported your JAR file from DataRobot before proceeding:</p>\n<pre><code>az ml model register --name [--asset-path] [--cc] [--description] [--experiment-name]\n[--gb] [--gc] [--model-framework] [--model-framework-version] [--model-path]\n[--output-metadata-file] [--path] [--property] [--resource-group] [--run-id]\n[--run-metadata-file] [--sample-input-dataset-id] [--sample-output-dataset-id]\n[--tag] [--workspace-name] [-v]\n</code></pre>\n<p>For example, to register model named <code>codegenmodel</code>:</p>\n<pre><code>az ml model register --name codegenmodel --model-path 5cd071deef881f011a334c2f.jar --resource-group myresourcegroup --workspace-name myworkspace\n</code></pre>\n</li>\n<li>\n<p>Prepare two configs and a Python entry script that will execute the prediction.</p>\n<p>Below are some examples of configs with a Python entry script.</p>\n<ul>\n<li>\n<p><code>deploymentconfig.json</code>:</p>\n<pre><code>{\n    \"computeType\": \"aci\",\n    \"containerResourceRequirements\": {\n        \"cpu\": 0.5,\n        \"memoryInGB\": 1.0\n    },\n    \"authEnabled\": true,\n    \"sslEnabled\": false,\n    \"appInsightsEnabled\": false\n}\n</code></pre>\n</li>\n<li>\n<p><code>inferenceconfig.json</code> (if you are <em>not</em> using a DataRobot Docker image):</p>\n<pre><code>{\n    \"entryScript\": \"score.py\",\n    \"runtime\": \"python\",\n    \"enableGpu\": false,\n    \"baseImage\": \"&lt;container-registry-name&gt;.azurecr.io/&lt;Docker-image-name&gt;\",\n    \"baseImageRegistry\": {\n        \"address\": \"&lt;container-registry-name&gt;.azurecr.io\",\n        \"password\": &lt;password from the step 2&gt;,\n        \"username\": &lt;container-registry-name&gt;\n    }\n}\n</code></pre>\n</li>\n<li>\n<p><code>inferenceconfig.json</code>(if you <em>are</em> using a DataRobot Docker image):</p>\n<pre><code>{\n    \"entryScript\": \"score.py\",\n    \"runtime\": \"python\",\n    \"enableGpu\": false,\n    \"baseImage\": \"datarobot/scoring-inference-code-azure:latest\",\n    \"baseImageRegistry\": {\n        \"address\": \"registry.hub.docker.com\"\n    }\n}\n</code></pre>\n</li>\n<li>\n<p><code>score.py</code>:</p>\n<pre><code>import os\nimport subprocess\nimport tempfile\nimport json\nfrom azureml.core import Model\n\n# Called when the deployed service starts\n\ndef init():\npass\n\n# Handle requests to the service\n\ndef run(data):\n    try:\n        result_csv = ''\n        data = json.loads(data)\n        # Access your model registered in step 6\n        model_path = Model.get_model_path('codegenmodel')        \n        with tempfile.NamedTemporaryFile() as output_file:\n            p = subprocess.run(['java', '-jar', model_path, 'csv', '--input=-',\n'--output={}'.format(output_file.name)], input=bytearray(data['csv'].encode('utf-8')), stdout=subprocess.PIPE)\n            with open(output_file.name) as result_file:\n                result_csv = result_file.read()\n\n# Return prediction\n\nreturn result_csv\nexcept Exception as e:\n    error = str(e)\n    return error\n</code></pre>\n</li>\n</ul>\n</li>\n<li>\n<p>Create a new prediction endpoint:</p>\n<pre><code>az ml model deploy --name [--ae] [--ai] [--ar] [--as] [--at] [--autoscale-max-replicas]\n[--autoscale-min-replicas] [--base-image] [--base-image-registry] [--cc] [--cf]\n[--collect-model-data] [--compute-target] [--compute-type] [--cuda-version] [--dc]\n[--description] [--dn] [--ds] [--ed] [--eg] [--entry-script] [--environment-name]\n[--environment-version] [--failure-threshold] [--gb] [--gc] [--ic] [--id] [--kp]\n[--ks] [--lo] [--max-request-wait-time] [--model] [--model-metadata-file] [--namespace]\n[--no-wait] [--nr] [--overwrite] [--path] [--period-seconds] [--pi] [--po] [--property]\n[--replica-max-concurrent-requests] [--resource-group] [--rt] [--sc] [--scoring-timeout-ms]\n[--sd] [--se] [--sk] [--sp] [--st] [--tag] [--timeout-seconds] [--token-auth-enabled]\n[--workspace-name] [-v]\n</code></pre>\n<p>For example, to create a new endpoint with the name <code>myservice</code>:</p>\n<pre><code>az ml model deploy --name myservice --model codegenmodel:1 --compute-target akscomputetarget --ic inferenceconfig.json --dc deploymentconfig.json --resource-group myresourcegroup --workspace-name myworkspace\n</code></pre>\n</li>\n<li>\n<p>Get a token to make prediction requests:</p>\n<pre><code>az ml service get-keys --name [--path] [--resource-group] [--workspace-name] [-v]\n</code></pre>\n<p>For example:</p>\n<pre><code>az ml service get-keys --name myservice --resource-group myresourcegroup --workspace-name myworkspace\n</code></pre>\n<p>This command returns a JSON response:</p>\n<pre><code>{\n    \"primaryKey\": &lt;key&gt;,\n    \"secondaryKey\": &lt;key&gt;\n}\n</code></pre>\n</li>\n</ul> <p>You can now make prediction requests using Azure.</p>",
+          "itemType": "tutorials",
+          "objectID": "bd13e555-ac10-4e5b-b684-7f20dc8e2e44",
+          "section": null,
+          "title": "Import to Azure ML",
+          "toc": null,
+          "url": "/en/predictions/scoring-code/sc-azureml.html"
+        }
+      ],
+      "hitsPerPage": 10,
+      "index": "local_DOCS_PORTAL_PLATFORM_EN",
+      "nbHits": 15,
+      "nbPages": 2,
+      "page": 0,
+      "params": "restrictSearchableAttributes=%5B%22title%22%2C%22section%22%2C%22content%22%5D&hitsPerPage=10&typoTolerance=true&distinct=true&query=using+Import+data+from+rep&highlightPreTag=%3Cais-highlight-0000000000%3E&highlightPostTag=%3C%2Fais-highlight-0000000000%3E&page=0",
+      "processingTimeMS": 4,
+      "query": "using Import data from rep"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+    "results": [
+        {
+            "exhaustiveNbHits": true,
+            "hits": [
+                {
+                    "_highlightResult": {
+                        "content": {
+                            "fullyHighlighted": false,
+                            "matchLevel": "full",
+                            "matchedWords": [
+                                "configure",
+                                "time",
+                                "aware",
+                                "feature",
+                                "engineering"
+                            ],
+                            "value": "<p>Use the following table to help locate the documentation appropriate to your understanding and requirements of the <ais-highlight-0000000000>feature</ais-highlight-0000000000> <ais-highlight-0000000000>engineering</ais-highlight-0000000000> workflow:</p> <table>\n<thead>\n<tr>\n<th>Topic</th>\n<th>Describes...</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Create a project</td>\n<td>Create projects with secondary datasets, including a simple use-case-based workflow overview.</td>\n</tr>\n<tr>\n<td><ais-highlight-0000000000>Time-aware</ais-highlight-0000000000> <ais-highlight-0000000000>feature</ais-highlight-0000000000> <ais-highlight-0000000000>engineering</ais-highlight-0000000000></td>\n<td><ais-highlight-0000000000>Configure</ais-highlight-0000000000> <ais-highlight-0000000000>time-aware</ais-highlight-0000000000> <ais-highlight-0000000000>feature</ais-highlight-0000000000> <ais-highlight-0000000000>engineering</ais-highlight-0000000000>.</td>\n</tr>\n<tr>\n<td>Derived Features</td>\n<td>Introduction to the list of aggregations and the <ais-highlight-0000000000>feature</ais-highlight-0000000000> reduction process.</td>\n</tr>\n<tr>\n<td>Predictions</td>\n<td>Score data with models created using secondary datasets.</td>\n</tr>\n<tr>\n<td><ais-highlight-0000000000>Feature</ais-highlight-0000000000> considerations</td>\n<td>Considerations to be aware of when working with secondary datasets.</td>\n</tr>\n</tbody>\n</table> <p>In most cases, all you need to start is a simple training dataset that includes:</p> <ul>\n<li>The target (column that you want to predict).</li>\n<li>An identifier (e.g., customer_id, transaction_id,...) to link the dataset to additional related datasets.</li>\n<li>A date <ais-highlight-0000000000>feature</ais-highlight-0000000000> in the primary table that is then used as the point for generating new features (prediction point).</li>\n</ul> <p>From this primary dataset, DataRobot guides you through creating relationships to additional datasets, called secondary datasets. The end result is a multitude of additional features that will be used to train more accurate models and generate predictions.</p>"
+                        },
+                        "section": {
+                            "matchLevel": "none",
+                            "matchedWords": [
+
+                            ],
+                            "value": "Suggested reading path"
+                        },
+                        "title": {
+                            "fullyHighlighted": false,
+                            "matchLevel": "partial",
+                            "matchedWords": [
+                                "feature"
+                            ],
+                            "value": "<ais-highlight-0000000000>Feature</ais-highlight-0000000000> Discovery"
+                        }
+                    },
+                    "anchor": "suggested-reading-path",
+                    "breadcrumbs": [
+                        "Data",
+                        "Data Management",
+                        "Feature Discovery"
+                    ],
+                    "content": "<p>Use the following table to help locate the documentation appropriate to your understanding and requirements of the feature engineering workflow:</p> <table>\n<thead>\n<tr>\n<th>Topic</th>\n<th>Describes...</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Create a project</td>\n<td>Create projects with secondary datasets, including a simple use-case-based workflow overview.</td>\n</tr>\n<tr>\n<td>Time-aware feature engineering</td>\n<td>Configure time-aware feature engineering.</td>\n</tr>\n<tr>\n<td>Derived Features</td>\n<td>Introduction to the list of aggregations and the feature reduction process.</td>\n</tr>\n<tr>\n<td>Predictions</td>\n<td>Score data with models created using secondary datasets.</td>\n</tr>\n<tr>\n<td>Feature considerations</td>\n<td>Considerations to be aware of when working with secondary datasets.</td>\n</tr>\n</tbody>\n</table> <p>In most cases, all you need to start is a simple training dataset that includes:</p> <ul>\n<li>The target (column that you want to predict).</li>\n<li>An identifier (e.g., customer_id, transaction_id,...) to link the dataset to additional related datasets.</li>\n<li>A date feature in the primary table that is then used as the point for generating new features (prediction point).</li>\n</ul> <p>From this primary dataset, DataRobot guides you through creating relationships to additional datasets, called secondary datasets. The end result is a multitude of additional features that will be used to train more accurate models and generate predictions.</p>",
+                    "itemType": "api",
+                    "objectID": "203d31d1-b1d3-4d27-bae3-265209b42908",
+                    "section": "Suggested reading path",
+                    "title": "Feature Discovery",
+                    "toc": [
+                        "Suggested reading path"
+                    ],
+                    "url": "/en/data/data-mgmt/feature-discovery/index.html"
+                }
+            ],
+            "hitsPerPage": 10,
+            "index": "local_DOCS_PORTAL_PLATFORM_EN",
+            "nbHits": 1,
+            "nbPages": 1,
+            "page": 0,
+            "params": "restrictSearchableAttributes=%5B%22title%22%2C%22section%22%2C%22content%22%5D&hitsPerPage=10&typoTolerance=true&distinct=true&query=configure+time-aware+feature+engineering&highlightPreTag=%3Cais-highlight-0000000000%3E&highlightPostTag=%3C%2Fais-highlight-0000000000%3E&page=0&filters=itemType%3Aapi",
+            "processingTimeMS": 3,
+            "query": "configure time-aware feature engineering"
+        }
+    ]
+}

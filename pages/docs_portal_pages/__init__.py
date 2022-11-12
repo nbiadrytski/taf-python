@@ -1,0 +1,5 @@
+from pages.docs_portal_pages.docs_base_page import DocsBasePage
+from pages.docs_portal_pages.main_page import DocsMainPage
+from pages.docs_portal_pages.platform_page import DocsPlatformPage
+from pages.docs_portal_pages.search_component import DocsSearchComponent
+from pages.docs_portal_pages.platform_data_page import DocsPlatformDataPage

@@ -1,0 +1,21 @@
+{
+    "errors": {
+        "billingPeriodStartTs": "is required",
+        "billingPeriodEndTs": "is required",
+        "activeUsers": {
+            "0": {
+                "email": "is required",
+                "uid": "is required",
+                "operations": {
+                    "0": {
+                        "operationDetails": {
+                            "category": "is required"
+                        },
+                        "value": "is required",
+                        "source": "is required"
+                    }
+                }
+            }
+        }
+    }
+}

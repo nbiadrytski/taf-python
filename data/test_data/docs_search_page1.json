@@ -1,0 +1,332 @@
+{
+  "results": [
+    {
+      "exhaustiveNbHits": true,
+      "hits": [
+        {
+          "_highlightResult": {
+            "content": {
+              "fullyHighlighted": false,
+              "matchLevel": "full",
+              "matchedWords": [
+                "using",
+                "import",
+                "data",
+                "from",
+                "rep"
+              ],
+              "value": "<table>\n<thead>\n<tr>\n<th>Name</th>\n<th>Type</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Account</td>\n<td>Table</td>\n<td>A Marketing Cloud account.</td>\n</tr>\n<tr>\n<td>AccountUser</td>\n<td>Table</td>\n<td>An individual user within an account. This table does not support deletes.</td>\n</tr>\n<tr>\n<td>BusinessUnit</td>\n<td>Table</td>\n<td>A unit within a larger Enterprise or Enterprise 2.0 account. This table supports queries and updates only.</td>\n</tr>\n<tr>\n<td>ContentArea</td>\n<td>Table</td>\n<td>A ContentArea <ais-highlight-0000000000>rep</ais-highlight-0000000000>resents a defined section of reusable content.</td>\n</tr>\n<tr>\n<td>DataExtension</td>\n<td>Table</td>\n<td><ais-highlight-0000000000>Rep</ais-highlight-0000000000>resents a <ais-highlight-0000000000>data</ais-highlight-0000000000> extension within an account.</td>\n</tr>\n<tr>\n<td>Email</td>\n<td>Table</td>\n<td><ais-highlight-0000000000>Rep</ais-highlight-0000000000>resents an email in a Marketing Cloud account.</td>\n</tr>\n<tr>\n<td>EmailSendDefinition</td>\n<td>Table</td>\n<td>Record that contains the message information, sender profile, delivery profile, and audience information.</td>\n</tr>\n<tr>\n<td>FileTrigger</td>\n<td>Table</td>\n<td>Reserved for future use. This table does not support deletes.</td>\n</tr>\n<tr>\n<td>FilterDefinition</td>\n<td>Table</td>\n<td>Defines an audience based on specified rules in a filter. This table does not support inserts.</td>\n</tr>\n<tr>\n<td>ImportDefinition</td>\n<td>Table</td>\n<td>Defines a reusable pattern of <ais-highlight-0000000000>import</ais-highlight-0000000000> options. This table does not support inserts.</td>\n</tr>\n<tr>\n<td>List</td>\n<td>Table</td>\n<td>A marketing list of subscribers.</td>\n</tr>\n<tr>\n<td>Portfolio</td>\n<td>Table</td>\n<td>Indicates a file within the Portfolio of a Marketing Cloud account.</td>\n</tr>\n<tr>\n<td>ProgramManifestTemplate</td>\n<td>Table</td>\n<td>Reserved for future use. This table does not support deletes or inserts.</td>\n</tr>\n<tr>\n<td>QueryDefinition</td>\n<td>Table</td>\n<td><ais-highlight-0000000000>Rep</ais-highlight-0000000000>resents a SQL query activity accessed and performed by the SOAP API. This table does not support updates or inserts.</td>\n</tr>\n<tr>\n<td><ais-highlight-0000000000>Rep</ais-highlight-0000000000>lyMailManagementConfiguration</td>\n<td>Table</td>\n<td>Details configuration settings for the <ais-highlight-0000000000>rep</ais-highlight-0000000000>ly mail management in an account. This table does not support deletes.</td>\n</tr>\n<tr>\n<td>Send</td>\n<td>Table</td>\n<td>Used to send email and retrieve aggregate <ais-highlight-0000000000>data</ais-highlight-0000000000>. This table does not support deletes or updates.</td>\n</tr>\n<tr>\n<td>SendClassification</td>\n<td>Table</td>\n<td><ais-highlight-0000000000>Rep</ais-highlight-0000000000>resents a send classification in a Marketing Cloud account.</td>\n</tr>\n<tr>\n<td>SenderProfile</td>\n<td>Table</td>\n<td>The send profile used in conjunction with an email send definition.</td>\n</tr>\n<tr>\n<td>SMSTriggeredSend</td>\n<td>Table</td>\n<td>Indicates a single instance of an SMS triggered send. This table does not support deletes or updates.</td>\n</tr>\n<tr>\n<td>Subscriber</td>\n<td>Table</td>\n<td>A person subscribed to receive email or SMS communication.</td>\n</tr>\n<tr>\n<td>SuppressionListDefinition</td>\n<td>Table</td>\n<td>A suppression list that can be associated with different contexts.</td>\n</tr>\n<tr>\n<td>TriggeredSendDefinition</td>\n<td>Table</td>\n<td>To create or update a TriggeredSendDefinition where the list ID is the All Subs List ID, you need the Email - Subscribers - All Subscribers - View and SendEmailToList permissions.</td>\n</tr>\n<tr>\n<td>Automation</td>\n<td>View</td>\n<td>Defines an automation that exists within Automation Studio for an account.</td>\n</tr>\n<tr>\n<td>BounceEvent</td>\n<td>View</td>\n<td>Contains SMTP and other information pertaining to the specific event of an email message bounce.</td>\n</tr>\n<tr>\n<td>ClickEvent</td>\n<td>View</td>\n<td>Contains time and date information, as well as a URL ID and a URL, regarding a click on a link contained in a message.</td>\n</tr>\n<tr>\n<td>DataExtensionField</td>\n<td>View</td>\n<td><ais-highlight-0000000000>Rep</ais-highlight-0000000000>resents a field within a <ais-highlight-0000000000>data</ais-highlight-0000000000> extension.</td>\n</tr>\n<tr>\n<td>DataExtensionTemplate</td>\n<td>View</td>\n<td><ais-highlight-0000000000>Rep</ais-highlight-0000000000>resents a <ais-highlight-0000000000>data</ais-highlight-0000000000> extension template within an account.</td>\n</tr>\n<tr>\n<td>DataFolder</td>\n<td>View</td>\n<td><ais-highlight-0000000000>Rep</ais-highlight-0000000000>resents a folder in a Marketing Cloud account</td>\n</tr>\n<tr>\n<td>DoubleOptInMOKeyword</td>\n<td>View</td>\n<td>The DoubleOptInMOKeyword object defines an MO keyword, allowing a mobile user to subscribe to SMS messages <ais-highlight-0000000000>using</ais-highlight-0000000000> a double opt-in workflow.</td>\n</tr>\n<tr>\n<td>FileTriggerTypeLastPull</td>\n<td>View</td>\n<td>Reserved for future use.</td>\n</tr>\n<tr>\n<td>ForwardedEmailEvent</td>\n<td>View</td>\n<td>Indicates a subscriber used the Forward To A Friend feature to send an email to another person.</td>\n</tr>\n<tr>\n<td>ForwardedEmailOptInEvent</td>\n<td>View</td>\n<td>Specifies an opt-in event related to a Forward To A Friend event.</td>\n</tr>\n<tr>\n<td>HelpMOKeyword</td>\n<td>View</td>\n<td>Defines actions associated with the HELP SMS keyword for an account.</td>\n</tr>\n<tr>\n<td>ImportResultsSummary</td>\n<td>View</td>\n<td>A retrieve-only object that contains status and aggregate information on an individual <ais-highlight-0000000000>import</ais-highlight-0000000000> started <ais-highlight-0000000000>from</ais-highlight-0000000000> an ImportDefinition.</td>\n</tr>\n<tr>\n<td>LinkSend</td>\n<td>View</td>\n<td>Provides information about a link in a send.</td>\n</tr>\n<tr>\n<td>ListSend</td>\n<td>View</td>\n<td>Specifies retrieve-only properties associated with the list(s) for a completed send.</td>\n</tr>\n<tr>\n<td>ListSubscriber</td>\n<td>View</td>\n<td>Retrieves subscribers for a list or lists for a subscriber.</td>\n</tr>\n<tr>\n<td>MessagingVendorKind</td>\n<td>View</td>\n<td>Contains the vendor details for an SMS (short message service) or voice messaging vendor. Deprecated.</td>\n</tr>\n<tr>\n<td>NotSentEvent</td>\n<td>View</td>\n<td>Contains information on when email message failed to be sent.</td>\n</tr>\n<tr>\n<td>OpenEvent</td>\n<td>View</td>\n<td>Contains information about the opening of a message send by a subscriber.</td>\n</tr>\n<tr>\n<td>PrivateIP</td>\n<td>View</td>\n<td>The PrivateIP object contains information on private IP address to be used as part of messages sends.</td>\n</tr>\n<tr>\n<td>Publication</td>\n<td>View</td>\n<td>Reserved for future use.</td>\n</tr>\n<tr>\n<td>PublicationSubscriber</td>\n<td>View</td>\n<td>Describes subscriber on a publication list.</td>\n</tr>\n<tr>\n<td>PublicKeyManagement</td>\n<td>View</td>\n<td>Reserved for future use.</td>\n</tr>\n<tr>\n<td>ResultItem</td>\n<td>View</td>\n<td>Contains results of asynchronous API call.</td>\n</tr>\n<tr>\n<td>ResultMessage</td>\n<td>View</td>\n<td>Message containing results of async call.</td>\n</tr>\n<tr>\n<td>Role</td>\n<td>View</td>\n<td>Defines roles and permissions assigned to a user in an account.</td>\n</tr>\n<tr>\n<td>SendEmailMOKeyword</td>\n<td>View</td>\n<td>Defines the action that sends a triggered email message to the email addresses defined in an MO message.</td>\n</tr>\n<tr>\n<td>SendSMSMOKeyword</td>\n<td>View</td>\n<td>Defines actions to take when the specified MO keyword is received.</td>\n</tr>\n<tr>\n<td>SendSummary</td>\n<td>View</td>\n<td>A retrieve only object that contains summary information about a specific send event.</td>\n</tr>\n<tr>\n<td>SentEvent</td>\n<td>View</td>\n<td>Contains tracking <ais-highlight-0000000000>data</ais-highlight-0000000000> related to a send, including information on individual subscribers.</td>\n</tr>\n<tr>\n<td>SMSMTEvent</td>\n<td>View</td>\n<td>Contains information on a specific SMS message sent to a subscriber.</td>\n</tr>\n<tr>\n<td>SMSSharedKeyword</td>\n<td>View</td>\n<td>Contains information used to request a keyword for use with SMS messages in a Marketing Cloud account.</td>\n</tr>\n<tr>\n<td>SMSTriggeredSendDefinition</td>\n<td>View</td>\n<td>Defines the send definition for an SMS message.</td>\n</tr>\n<tr>\n<td>SubscriberList</td>\n<td>View</td>\n<td>Use to retrieve lists for a specific subscriber.</td>\n</tr>\n<tr>\n<td>SubscriberSendResult</td>\n<td>View</td>\n<td>Reserved for future use.</td>\n</tr>\n<tr>\n<td>SuppressionListContext</td>\n<td>View</td>\n<td>Defines a context that a SuppressionListDefinition can be associated with.</td>\n</tr>\n<tr>\n<td>SurveyEvent</td>\n<td>View</td>\n<td>Contains information on when a survey response took place.</td>\n</tr>\n<tr>\n<td>Template</td>\n<td>View</td>\n<td><ais-highlight-0000000000>Rep</ais-highlight-0000000000>resents an email template in a Marketing Cloud account.</td>\n</tr>\n<tr>\n<td>TimeZone</td>\n<td>View</td>\n<td><ais-highlight-0000000000>Rep</ais-highlight-0000000000>resents a specific time zone in the application.</td>\n</tr>\n<tr>\n<td>TriggeredSendSummary</td>\n<td>View</td>\n<td>Summary of results for a specific triggered send.</td>\n</tr>\n<tr>\n<td>UnsubEvent</td>\n<td>View</td>\n<td>Contains information regarding a specific unsubscription action taken by a subscriber.</td>\n</tr>\n<tr>\n<td>UnsubscribeFromSMSPublicationMOKeyword</td>\n<td>View</td>\n<td>Defines keyword used by a subscriber to unsubscribe <ais-highlight-0000000000>from</ais-highlight-0000000000> an SMS publication list.</td>\n</tr>\n</tbody>\n</table>"
+            },
+            "section": {
+              "matchLevel": "none",
+              "matchedWords": [
+
+              ],
+              "value": "Salesforce Objects"
+            },
+            "title": {
+              "matchLevel": "none",
+              "matchedWords": [
+
+              ],
+              "value": "Salesforce Marketing Cloud Connector"
+            }
+          },
+          "anchor": "salesforce-objects",
+          "breadcrumbs": [
+            "Data",
+            "Data Prep",
+            "Connect to data sources",
+            "Salesforce Marketing Cloud Connector"
+          ],
+          "content": "<table>\n<thead>\n<tr>\n<th>Name</th>\n<th>Type</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Account</td>\n<td>Table</td>\n<td>A Marketing Cloud account.</td>\n</tr>\n<tr>\n<td>AccountUser</td>\n<td>Table</td>\n<td>An individual user within an account. This table does not support deletes.</td>\n</tr>\n<tr>\n<td>BusinessUnit</td>\n<td>Table</td>\n<td>A unit within a larger Enterprise or Enterprise 2.0 account. This table supports queries and updates only.</td>\n</tr>\n<tr>\n<td>ContentArea</td>\n<td>Table</td>\n<td>A ContentArea represents a defined section of reusable content.</td>\n</tr>\n<tr>\n<td>DataExtension</td>\n<td>Table</td>\n<td>Represents a data extension within an account.</td>\n</tr>\n<tr>\n<td>Email</td>\n<td>Table</td>\n<td>Represents an email in a Marketing Cloud account.</td>\n</tr>\n<tr>\n<td>EmailSendDefinition</td>\n<td>Table</td>\n<td>Record that contains the message information, sender profile, delivery profile, and audience information.</td>\n</tr>\n<tr>\n<td>FileTrigger</td>\n<td>Table</td>\n<td>Reserved for future use. This table does not support deletes.</td>\n</tr>\n<tr>\n<td>FilterDefinition</td>\n<td>Table</td>\n<td>Defines an audience based on specified rules in a filter. This table does not support inserts.</td>\n</tr>\n<tr>\n<td>ImportDefinition</td>\n<td>Table</td>\n<td>Defines a reusable pattern of import options. This table does not support inserts.</td>\n</tr>\n<tr>\n<td>List</td>\n<td>Table</td>\n<td>A marketing list of subscribers.</td>\n</tr>\n<tr>\n<td>Portfolio</td>\n<td>Table</td>\n<td>Indicates a file within the Portfolio of a Marketing Cloud account.</td>\n</tr>\n<tr>\n<td>ProgramManifestTemplate</td>\n<td>Table</td>\n<td>Reserved for future use. This table does not support deletes or inserts.</td>\n</tr>\n<tr>\n<td>QueryDefinition</td>\n<td>Table</td>\n<td>Represents a SQL query activity accessed and performed by the SOAP API. This table does not support updates or inserts.</td>\n</tr>\n<tr>\n<td>ReplyMailManagementConfiguration</td>\n<td>Table</td>\n<td>Details configuration settings for the reply mail management in an account. This table does not support deletes.</td>\n</tr>\n<tr>\n<td>Send</td>\n<td>Table</td>\n<td>Used to send email and retrieve aggregate data. This table does not support deletes or updates.</td>\n</tr>\n<tr>\n<td>SendClassification</td>\n<td>Table</td>\n<td>Represents a send classification in a Marketing Cloud account.</td>\n</tr>\n<tr>\n<td>SenderProfile</td>\n<td>Table</td>\n<td>The send profile used in conjunction with an email send definition.</td>\n</tr>\n<tr>\n<td>SMSTriggeredSend</td>\n<td>Table</td>\n<td>Indicates a single instance of an SMS triggered send. This table does not support deletes or updates.</td>\n</tr>\n<tr>\n<td>Subscriber</td>\n<td>Table</td>\n<td>A person subscribed to receive email or SMS communication.</td>\n</tr>\n<tr>\n<td>SuppressionListDefinition</td>\n<td>Table</td>\n<td>A suppression list that can be associated with different contexts.</td>\n</tr>\n<tr>\n<td>TriggeredSendDefinition</td>\n<td>Table</td>\n<td>To create or update a TriggeredSendDefinition where the list ID is the All Subs List ID, you need the Email - Subscribers - All Subscribers - View and SendEmailToList permissions.</td>\n</tr>\n<tr>\n<td>Automation</td>\n<td>View</td>\n<td>Defines an automation that exists within Automation Studio for an account.</td>\n</tr>\n<tr>\n<td>BounceEvent</td>\n<td>View</td>\n<td>Contains SMTP and other information pertaining to the specific event of an email message bounce.</td>\n</tr>\n<tr>\n<td>ClickEvent</td>\n<td>View</td>\n<td>Contains time and date information, as well as a URL ID and a URL, regarding a click on a link contained in a message.</td>\n</tr>\n<tr>\n<td>DataExtensionField</td>\n<td>View</td>\n<td>Represents a field within a data extension.</td>\n</tr>\n<tr>\n<td>DataExtensionTemplate</td>\n<td>View</td>\n<td>Represents a data extension template within an account.</td>\n</tr>\n<tr>\n<td>DataFolder</td>\n<td>View</td>\n<td>Represents a folder in a Marketing Cloud account</td>\n</tr>\n<tr>\n<td>DoubleOptInMOKeyword</td>\n<td>View</td>\n<td>The DoubleOptInMOKeyword object defines an MO keyword, allowing a mobile user to subscribe to SMS messages using a double opt-in workflow.</td>\n</tr>\n<tr>\n<td>FileTriggerTypeLastPull</td>\n<td>View</td>\n<td>Reserved for future use.</td>\n</tr>\n<tr>\n<td>ForwardedEmailEvent</td>\n<td>View</td>\n<td>Indicates a subscriber used the Forward To A Friend feature to send an email to another person.</td>\n</tr>\n<tr>\n<td>ForwardedEmailOptInEvent</td>\n<td>View</td>\n<td>Specifies an opt-in event related to a Forward To A Friend event.</td>\n</tr>\n<tr>\n<td>HelpMOKeyword</td>\n<td>View</td>\n<td>Defines actions associated with the HELP SMS keyword for an account.</td>\n</tr>\n<tr>\n<td>ImportResultsSummary</td>\n<td>View</td>\n<td>A retrieve-only object that contains status and aggregate information on an individual import started from an ImportDefinition.</td>\n</tr>\n<tr>\n<td>LinkSend</td>\n<td>View</td>\n<td>Provides information about a link in a send.</td>\n</tr>\n<tr>\n<td>ListSend</td>\n<td>View</td>\n<td>Specifies retrieve-only properties associated with the list(s) for a completed send.</td>\n</tr>\n<tr>\n<td>ListSubscriber</td>\n<td>View</td>\n<td>Retrieves subscribers for a list or lists for a subscriber.</td>\n</tr>\n<tr>\n<td>MessagingVendorKind</td>\n<td>View</td>\n<td>Contains the vendor details for an SMS (short message service) or voice messaging vendor. Deprecated.</td>\n</tr>\n<tr>\n<td>NotSentEvent</td>\n<td>View</td>\n<td>Contains information on when email message failed to be sent.</td>\n</tr>\n<tr>\n<td>OpenEvent</td>\n<td>View</td>\n<td>Contains information about the opening of a message send by a subscriber.</td>\n</tr>\n<tr>\n<td>PrivateIP</td>\n<td>View</td>\n<td>The PrivateIP object contains information on private IP address to be used as part of messages sends.</td>\n</tr>\n<tr>\n<td>Publication</td>\n<td>View</td>\n<td>Reserved for future use.</td>\n</tr>\n<tr>\n<td>PublicationSubscriber</td>\n<td>View</td>\n<td>Describes subscriber on a publication list.</td>\n</tr>\n<tr>\n<td>PublicKeyManagement</td>\n<td>View</td>\n<td>Reserved for future use.</td>\n</tr>\n<tr>\n<td>ResultItem</td>\n<td>View</td>\n<td>Contains results of asynchronous API call.</td>\n</tr>\n<tr>\n<td>ResultMessage</td>\n<td>View</td>\n<td>Message containing results of async call.</td>\n</tr>\n<tr>\n<td>Role</td>\n<td>View</td>\n<td>Defines roles and permissions assigned to a user in an account.</td>\n</tr>\n<tr>\n<td>SendEmailMOKeyword</td>\n<td>View</td>\n<td>Defines the action that sends a triggered email message to the email addresses defined in an MO message.</td>\n</tr>\n<tr>\n<td>SendSMSMOKeyword</td>\n<td>View</td>\n<td>Defines actions to take when the specified MO keyword is received.</td>\n</tr>\n<tr>\n<td>SendSummary</td>\n<td>View</td>\n<td>A retrieve only object that contains summary information about a specific send event.</td>\n</tr>\n<tr>\n<td>SentEvent</td>\n<td>View</td>\n<td>Contains tracking data related to a send, including information on individual subscribers.</td>\n</tr>\n<tr>\n<td>SMSMTEvent</td>\n<td>View</td>\n<td>Contains information on a specific SMS message sent to a subscriber.</td>\n</tr>\n<tr>\n<td>SMSSharedKeyword</td>\n<td>View</td>\n<td>Contains information used to request a keyword for use with SMS messages in a Marketing Cloud account.</td>\n</tr>\n<tr>\n<td>SMSTriggeredSendDefinition</td>\n<td>View</td>\n<td>Defines the send definition for an SMS message.</td>\n</tr>\n<tr>\n<td>SubscriberList</td>\n<td>View</td>\n<td>Use to retrieve lists for a specific subscriber.</td>\n</tr>\n<tr>\n<td>SubscriberSendResult</td>\n<td>View</td>\n<td>Reserved for future use.</td>\n</tr>\n<tr>\n<td>SuppressionListContext</td>\n<td>View</td>\n<td>Defines a context that a SuppressionListDefinition can be associated with.</td>\n</tr>\n<tr>\n<td>SurveyEvent</td>\n<td>View</td>\n<td>Contains information on when a survey response took place.</td>\n</tr>\n<tr>\n<td>Template</td>\n<td>View</td>\n<td>Represents an email template in a Marketing Cloud account.</td>\n</tr>\n<tr>\n<td>TimeZone</td>\n<td>View</td>\n<td>Represents a specific time zone in the application.</td>\n</tr>\n<tr>\n<td>TriggeredSendSummary</td>\n<td>View</td>\n<td>Summary of results for a specific triggered send.</td>\n</tr>\n<tr>\n<td>UnsubEvent</td>\n<td>View</td>\n<td>Contains information regarding a specific unsubscription action taken by a subscriber.</td>\n</tr>\n<tr>\n<td>UnsubscribeFromSMSPublicationMOKeyword</td>\n<td>View</td>\n<td>Defines keyword used by a subscriber to unsubscribe from an SMS publication list.</td>\n</tr>\n</tbody>\n</table>",
+          "itemType": "platform",
+          "objectID": "56527fe7-ef4b-4448-998c-e387688af4e4",
+          "section": "Salesforce Objects",
+          "title": "Salesforce Marketing Cloud Connector",
+          "toc": [
+            "Configure Data Prep",
+            [
+              "General",
+              "Salesforce Marketing Cloud Configuration",
+              "Web Proxy Configuration"
+            ],
+            "Data Import & Export Information",
+            [
+              "Via Browsing",
+              "Via SQL Query"
+            ],
+            "Salesforce Objects"
+          ],
+          "url": "/en/data/data-prep-pax/dp-connect/dp-conn-salesforce-marketing-cloud.html"
+        },
+        {
+          "_highlightResult": {
+            "content": {
+              "fullyHighlighted": false,
+              "matchLevel": "full",
+              "matchedWords": [
+                "using",
+                "import",
+                "data",
+                "from",
+                "rep"
+              ],
+              "value": "<p>To generate predictions on new <ais-highlight-0000000000>data</ais-highlight-0000000000> <ais-highlight-0000000000>using</ais-highlight-0000000000> the Prediction API, you need the model's deployment ID (available <ais-highlight-0000000000>from</ais-highlight-0000000000> the <strong>Deployments &gt; Predictions &gt; Prediction API</strong> tab). You also need your API key. Be aware that if your model is an open-source R script, it will run considerably slower.</p> <p>Prediction requests are submitted as POST requests to the resource, for example:</p> <pre><code>$ curl -i -X POST \"https://example.datarobot.com/predApi/v1.0/deployments/&lt;deploymentId&gt;/predictions\" \\\n-H \"Authorization: Bearer &lt;API key&gt;\" -F \\\nfile=@~/.home/path/to/dataset.csv\n</code></pre> <div class=\"admonition info\">\n<p class=\"admonition-title\">Availability information</p>\n<p>Managed AI Cloud users must include the <code>datarobot-key</code> in the cURL header (for example, <code>curl -H \"Content-Type: application/json\", -H \"datarobot-key: xxxx\"</code>). Find the key on the <strong>Predictions &gt; Prediction API</strong> tab or by contacting your DataRobot <ais-highlight-0000000000>rep</ais-highlight-0000000000>resentative.</p>\n</div> <p>The order of the prediction response rows is the same as the order of the sent <ais-highlight-0000000000>data</ais-highlight-0000000000>.</p> <p>The Response returned is similar to:</p> <pre><code>HTTP/1.1 200 OK\nContent-Type: application/json\nX-DataRobot-Execution-Time: 38\nX-DataRobot-Model-Cache-Hit: true\n\n{\"<ais-highlight-0000000000>data</ais-highlight-0000000000>\":[...]}\n</code></pre> <div class=\"admonition tip\">\n<p class=\"admonition-title\">Tip</p>\n<p>The example above shows an arbitrary hostname (<code>example.datarobot.com</code>) as the Prediction API URL; be sure to use the correct hostname of your dedicated prediction server. The configured (predictions) URL is displayed:</p>\n<p></p><ul>\n<li> <i>for standalone prediction servers</i>: on the <b><b>Manage Predictions &gt; <ais-highlight-0000000000>Import</ais-highlight-0000000000> Model</b> page</b>.</li>\n<li> <i>for dedicated servers</i>: in the sample code of the <b>Deployments &gt; Predictions &gt; Prediction API</b> tab.</li>\n</ul>\n<p>See your system administrator for more assistance, if needed.</p>\n</div>"
+            },
+            "section": {
+              "matchLevel": "none",
+              "matchedWords": [
+
+              ],
+              "value": "Making predictions"
+            },
+            "title": {
+              "matchLevel": "none",
+              "matchedWords": [
+
+              ],
+              "value": "Prediction API"
+            }
+          },
+          "anchor": "making-predictions",
+          "breadcrumbs": [
+            "Predictions",
+            "Prediction API",
+            "Prediction API"
+          ],
+          "content": "<p>To generate predictions on new data using the Prediction API, you need the model's deployment ID (available from the <strong>Deployments &gt; Predictions &gt; Prediction API</strong> tab). You also need your API key. Be aware that if your model is an open-source R script, it will run considerably slower.</p> <p>Prediction requests are submitted as POST requests to the resource, for example:</p> <pre><code>$ curl -i -X POST \"https://example.datarobot.com/predApi/v1.0/deployments/&lt;deploymentId&gt;/predictions\" \\\n-H \"Authorization: Bearer &lt;API key&gt;\" -F \\\nfile=@~/.home/path/to/dataset.csv\n</code></pre> <div class=\"admonition info\">\n<p class=\"admonition-title\">Availability information</p>\n<p>Managed AI Cloud users must include the <code>datarobot-key</code> in the cURL header (for example, <code>curl -H \"Content-Type: application/json\", -H \"datarobot-key: xxxx\"</code>). Find the key on the <strong>Predictions &gt; Prediction API</strong> tab or by contacting your DataRobot representative.</p>\n</div> <p>The order of the prediction response rows is the same as the order of the sent data.</p> <p>The Response returned is similar to:</p> <pre><code>HTTP/1.1 200 OK\nContent-Type: application/json\nX-DataRobot-Execution-Time: 38\nX-DataRobot-Model-Cache-Hit: true\n\n{\"data\":[...]}\n</code></pre> <div class=\"admonition tip\">\n<p class=\"admonition-title\">Tip</p>\n<p>The example above shows an arbitrary hostname (<code>example.datarobot.com</code>) as the Prediction API URL; be sure to use the correct hostname of your dedicated prediction server. The configured (predictions) URL is displayed:</p>\n<p></p><ul>\n<li> <i>for standalone prediction servers</i>: on the <b><b>Manage Predictions &gt; Import Model</b> page</b>.</li>\n<li> <i>for dedicated servers</i>: in the sample code of the <b>Deployments &gt; Predictions &gt; Prediction API</b> tab.</li>\n</ul>\n<p>See your system administrator for more assistance, if needed.</p>\n</div>",
+          "itemType": "platform",
+          "objectID": "06f0b007-a2ce-4f22-933e-882335247e68",
+          "section": "Making predictions",
+          "title": "Prediction API",
+          "toc": [
+            "Making predictions",
+            "Using persistent HTTP connections",
+            "Prediction inputs",
+            [
+              "JSON input",
+              "File input",
+              "In-body text input"
+            ],
+            "Prediction objects",
+            [
+              "Request schema",
+              "Response schema",
+              [
+                "PredictionValue schema"
+              ]
+            ],
+            "Making predictions with Automated Time Series",
+            [
+              "Request parameters",
+              "Response schema"
+            ],
+            "Making Prediction Explanations",
+            [
+              "Request parameters",
+              [
+                "PredictionExplanations schema"
+              ]
+            ],
+            "Making predictions with humility monitoring",
+            [
+              "Response schema"
+            ],
+            "Error responses",
+            "Knowing the limitations",
+            [
+              "Model caching"
+            ],
+            "Best practices for the fastest predictions",
+            "Prerequisites for using the standalone prediction server"
+          ],
+          "url": "/en/predictions/api/new-prediction-api.html"
+        },
+        {
+          "_highlightResult": {
+            "content": {
+              "fullyHighlighted": false,
+              "matchLevel": "full",
+              "matchedWords": [
+                "using",
+                "import",
+                "data",
+                "from",
+                "rep"
+              ],
+              "value": "<ul>\n<li>\n<p><strong>Export method</strong>: Select the method for exporting <ais-highlight-0000000000>data</ais-highlight-0000000000> <ais-highlight-0000000000>from</ais-highlight-0000000000> Snowflake. Both of these methods are specific to how Snowflake <ais-highlight-0000000000>imports</ais-highlight-0000000000> the <ais-highlight-0000000000>data</ais-highlight-0000000000>. For more details on these options, please refer to the Snowflake documentation linked behind the listed option. There are two options:</p>\n</li>\n<li>\n<p><strong>Internal stage</strong><strong>:</strong> Write <ais-highlight-0000000000>data</ais-highlight-0000000000> to a file on a Snowflake internal stage before loading the <ais-highlight-0000000000>data</ais-highlight-0000000000> into a table. This method is recommended for larger datasets since it will be faster than Direct SQL.\n    <strong>Stage Types:</strong></p>\n<ul>\n<li><strong>Temporary:</strong>  The stage created will be dropped at the end of the session in which it was created. The stage is managed by Snowflake, so no further configuration is required.</li>\n<li><strong>Permanent:</strong>  Specifies the name of a Stage that has already been created in Snowflake.<ul>\n<li><strong>Stage Name:</strong>  specifies the name for an existing named Internal Stage in Snowflake. See the Snowflake Identifier Syntax.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Direct SQL</strong><strong>:</strong> Use SQL insert statements to export <ais-highlight-0000000000>data</ais-highlight-0000000000>. For larger datasets, this approach is slower than <ais-highlight-0000000000>using</ais-highlight-0000000000> an internal stage.</p>\n<ul>\n<li><strong>Export Batch Size:</strong>  The batch size used when exporting <ais-highlight-0000000000>data</ais-highlight-0000000000> if the Direct SQL export method has been selected.</li>\n</ul>\n</li>\n<li>\n<p><strong>Max VARCHAR Size:</strong>  The maximum size allowed for a VARCHAR column allowed on export. Values greater than this size will be <ais-highlight-0000000000>rep</ais-highlight-0000000000>laced with null when <ais-highlight-0000000000>data</ais-highlight-0000000000> is loaded into the Snowflake table.</p>\n</li>\n<li><strong>Automatically create table:</strong>  Create a new table automatically on export. If enabled, <ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep will drop the table whose name matches the name of the exported dataset, if one already exists, and recreate the table <ais-highlight-0000000000>using</ais-highlight-0000000000> the exported dataset. If not enabled, <ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep will not create a new table, but will instead load the exported <ais-highlight-0000000000>data</ais-highlight-0000000000> into the table whose name matches the name of the exported dataset.</li>\n<li><strong>Pre-export SQL:</strong>  A SQL statement to execute before beginning export, after the table is created if auto-create is enabled.</li>\n<li><strong>Post-export SQL:</strong>  A SQL statement to execute after export completes.</li>\n</ul> <div class=\"admonition note\">\n<p class=\"admonition-title\">Note</p>\n<p><ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep exports <ais-highlight-0000000000>using</ais-highlight-0000000000> the “TIMESTAMP_LTZ(9)“ type. If a table was created <ais-highlight-0000000000>using</ais-highlight-0000000000> a different timestamp, exporting <ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep <ais-highlight-0000000000>data</ais-highlight-0000000000> to a column with a mismatching timestamp type will result in an error. The error reads: '\"There was an error while performing the export. Reason: SQL compilation error: Expression type does not match column <ais-highlight-0000000000>data</ais-highlight-0000000000> type, expecting TIMESTAMP_#### but got TIMESTAMP_LTZ(9) for column  _Column_Name.\"</p>\n</div> <p>To correct this, do one of the following:</p> <ul>\n<li>Allow <ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep to create the table and then perform the export, or</li>\n<li>Create your table with TIMESTAMP_LTZ(9) and then perform the export.</li>\n</ul>"
+            },
+            "section": {
+              "matchLevel": "none",
+              "matchedWords": [
+
+              ],
+              "value": "Export Configuration"
+            },
+            "title": {
+              "fullyHighlighted": false,
+              "matchLevel": "partial",
+              "matchedWords": [
+                "data"
+              ],
+              "value": "Snowflake <ais-highlight-0000000000>Data</ais-highlight-0000000000> Warehouse Connector"
+            }
+          },
+          "anchor": "export-configuration",
+          "breadcrumbs": [
+            "Data",
+            "Data Prep",
+            "Connect to data sources",
+            "Snowflake Data Warehouse Connector"
+          ],
+          "content": "<ul>\n<li>\n<p><strong>Export method</strong>: Select the method for exporting data from Snowflake. Both of these methods are specific to how Snowflake imports the data. For more details on these options, please refer to the Snowflake documentation linked behind the listed option. There are two options:</p>\n</li>\n<li>\n<p><strong>Internal stage</strong><strong>:</strong> Write data to a file on a Snowflake internal stage before loading the data into a table. This method is recommended for larger datasets since it will be faster than Direct SQL.\n    <strong>Stage Types:</strong></p>\n<ul>\n<li><strong>Temporary:</strong>  The stage created will be dropped at the end of the session in which it was created. The stage is managed by Snowflake, so no further configuration is required.</li>\n<li><strong>Permanent:</strong>  Specifies the name of a Stage that has already been created in Snowflake.<ul>\n<li><strong>Stage Name:</strong>  specifies the name for an existing named Internal Stage in Snowflake. See the Snowflake Identifier Syntax.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Direct SQL</strong><strong>:</strong> Use SQL insert statements to export data. For larger datasets, this approach is slower than using an internal stage.</p>\n<ul>\n<li><strong>Export Batch Size:</strong>  The batch size used when exporting data if the Direct SQL export method has been selected.</li>\n</ul>\n</li>\n<li>\n<p><strong>Max VARCHAR Size:</strong>  The maximum size allowed for a VARCHAR column allowed on export. Values greater than this size will be replaced with null when data is loaded into the Snowflake table.</p>\n</li>\n<li><strong>Automatically create table:</strong>  Create a new table automatically on export. If enabled, Data Prep will drop the table whose name matches the name of the exported dataset, if one already exists, and recreate the table using the exported dataset. If not enabled, Data Prep will not create a new table, but will instead load the exported data into the table whose name matches the name of the exported dataset.</li>\n<li><strong>Pre-export SQL:</strong>  A SQL statement to execute before beginning export, after the table is created if auto-create is enabled.</li>\n<li><strong>Post-export SQL:</strong>  A SQL statement to execute after export completes.</li>\n</ul> <div class=\"admonition note\">\n<p class=\"admonition-title\">Note</p>\n<p>Data Prep exports using the “TIMESTAMP_LTZ(9)“ type. If a table was created using a different timestamp, exporting Data Prep data to a column with a mismatching timestamp type will result in an error. The error reads: '\"There was an error while performing the export. Reason: SQL compilation error: Expression type does not match column data type, expecting TIMESTAMP_#### but got TIMESTAMP_LTZ(9) for column  _Column_Name.\"</p>\n</div> <p>To correct this, do one of the following:</p> <ul>\n<li>Allow Data Prep to create the table and then perform the export, or</li>\n<li>Create your table with TIMESTAMP_LTZ(9) and then perform the export.</li>\n</ul>",
+          "itemType": "api",
+          "objectID": "34af21ee-be58-4918-badf-accd81740f51",
+          "section": "Export Configuration",
+          "title": "Snowflake Data Warehouse Connector",
+          "toc": [
+            "Configure Data Prep",
+            [
+              "General",
+              "DataBase URI",
+              "Database, Schema, and Table Visibility",
+              "Import Configuration",
+              "Export Configuration",
+              "Credentials"
+            ],
+            "Data Import Information",
+            [
+              "Via Browsing",
+              "Via SQL Query"
+            ]
+          ],
+          "url": "/en/data/data-prep-pax/dp-connect/dp-conn-snowflake-data-warehouse.html"
+        },
+        {
+          "_highlightResult": {
+            "content": {
+              "fullyHighlighted": false,
+              "matchLevel": "full",
+              "matchedWords": [
+                "using",
+                "import",
+                "data",
+                "from",
+                "rep"
+              ],
+              "value": "<p>Less commonly (although there are reasons), you may want to download predictions for your original training <ais-highlight-0000000000>data</ais-highlight-0000000000>, which DataRobot automatically <ais-highlight-0000000000>imports</ais-highlight-0000000000>. <ais-highlight-0000000000>From</ais-highlight-0000000000> the dropdown, select the partition(s) to use when generating predictions.</p> <p>For small datasets, predictions are calculated by doing stacked predictions and therefore can use all partitions. Because those calculations are too “expensive” to run on large* datasets, predictions are based on holdout and/or validation partitions, as long the <ais-highlight-0000000000>data</ais-highlight-0000000000> wasn’t used in training.</p> <table>\n<thead>\n<tr>\n<th>Dropdown option</th>\n<th>Description for small datasets</th>\n<th>Description for large datasets</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>All <ais-highlight-0000000000>data</ais-highlight-0000000000></td>\n<td>Predictions are calculated by doing stacked predictions on training, validation, and holdout partitions, regardless of whether they were used for training the model or if holdout has been unlocked.</td>\n<td>Not available</td>\n</tr>\n<tr>\n<td>Validation and holdout</td>\n<td>Predictions are calculated <ais-highlight-0000000000>using</ais-highlight-0000000000> the validation and holdout partitions. If validation was used in training, this option is disabled.</td>\n<td>Predictions are calculated <ais-highlight-0000000000>using</ais-highlight-0000000000> the validation and holdout partitions. If validation was used in training or the project was created without a holdout partition, this option is not available.</td>\n</tr>\n<tr>\n<td>Validation</td>\n<td>If the project was created without a holdout partition, this option <ais-highlight-0000000000>rep</ais-highlight-0000000000>laces the <em>Validation and holdout</em> option.</td>\n<td>If the project was created without a holdout partition, this option <ais-highlight-0000000000>rep</ais-highlight-0000000000>laces the <em>Validation and holdout</em> option.</td>\n</tr>\n<tr>\n<td>Holdout</td>\n<td>Predictions are calculated <ais-highlight-0000000000>using</ais-highlight-0000000000> the holdout partition only. If holdout was used in training, this option is not available (only the All <ais-highlight-0000000000>data</ais-highlight-0000000000> option is valid).</td>\n<td>Predictions are calculated <ais-highlight-0000000000>using</ais-highlight-0000000000> the holdout partition only. If holdout was used in training, predictions are not available for the dataset.</td>\n</tr>\n</tbody>\n</table> <p>* “Large datasets” are defined, by default, as 750MB and higher.</p> <p>Select <strong>Compute Predictions</strong> to generate predictions for the selected partition on the existing dataset. The workflow for making and saving predictions <ais-highlight-0000000000>from</ais-highlight-0000000000> this point is the same as the workflow described above.</p>"
+            },
+            "section": {
+              "matchLevel": "none",
+              "matchedWords": [
+
+              ],
+              "value": "Making predictions on the original dataset"
+            },
+            "title": {
+              "matchLevel": "none",
+              "matchedWords": [
+
+              ],
+              "value": "Make Predictions tab"
+            }
+          },
+          "anchor": "making-predictions-on-the-original-dataset",
+          "breadcrumbs": [
+            "Predictions",
+            "UI prediction options",
+            "Make Predictions tab"
+          ],
+          "content": "<p>Less commonly (although there are reasons), you may want to download predictions for your original training data, which DataRobot automatically imports. From the dropdown, select the partition(s) to use when generating predictions.</p> <p>For small datasets, predictions are calculated by doing stacked predictions and therefore can use all partitions. Because those calculations are too “expensive” to run on large* datasets, predictions are based on holdout and/or validation partitions, as long the data wasn’t used in training.</p> <table>\n<thead>\n<tr>\n<th>Dropdown option</th>\n<th>Description for small datasets</th>\n<th>Description for large datasets</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>All data</td>\n<td>Predictions are calculated by doing stacked predictions on training, validation, and holdout partitions, regardless of whether they were used for training the model or if holdout has been unlocked.</td>\n<td>Not available</td>\n</tr>\n<tr>\n<td>Validation and holdout</td>\n<td>Predictions are calculated using the validation and holdout partitions. If validation was used in training, this option is disabled.</td>\n<td>Predictions are calculated using the validation and holdout partitions. If validation was used in training or the project was created without a holdout partition, this option is not available.</td>\n</tr>\n<tr>\n<td>Validation</td>\n<td>If the project was created without a holdout partition, this option replaces the <em>Validation and holdout</em> option.</td>\n<td>If the project was created without a holdout partition, this option replaces the <em>Validation and holdout</em> option.</td>\n</tr>\n<tr>\n<td>Holdout</td>\n<td>Predictions are calculated using the holdout partition only. If holdout was used in training, this option is not available (only the All data option is valid).</td>\n<td>Predictions are calculated using the holdout partition only. If holdout was used in training, predictions are not available for the dataset.</td>\n</tr>\n</tbody>\n</table> <p>* “Large datasets” are defined, by default, as 750MB and higher.</p> <p>Select <strong>Compute Predictions</strong> to generate predictions for the selected partition on the existing dataset. The workflow for making and saving predictions from this point is the same as the workflow described above.</p>",
+          "itemType": "platform",
+          "objectID": "c9603daf-2f5e-4d13-b209-226481fe31d6",
+          "section": "Making predictions on the original dataset",
+          "title": "Make Predictions tab",
+          "toc": [
+            "Workflow for making predictions",
+            "Making predictions on an external dataset",
+            [
+              "Supplying actual values for unsupervised projects",
+              "Comparing insights with external test sets"
+            ],
+            "Making predictions on the original dataset",
+            "Understanding stacked predictions",
+            "Reasons for using training data for predictions"
+          ],
+          "url": "/en/predictions/ui/predict.html"
+        },
+        {
+          "_highlightResult": {
+            "content": {
+              "fullyHighlighted": false,
+              "matchLevel": "full",
+              "matchedWords": [
+                "using",
+                "import",
+                "data",
+                "from",
+                "rep"
+              ],
+              "value": "<ul>\n<li><strong>Export <ais-highlight-0000000000>using</ais-highlight-0000000000> S3?:</strong> This option specifies whether the connector will export to Redshift by uploading <ais-highlight-0000000000>data</ais-highlight-0000000000> into Amazon S3 and then copying it into Redshift, or by inserting <ais-highlight-0000000000>data</ais-highlight-0000000000> directly into Redshift.</li>\n<li><strong>Export <ais-highlight-0000000000>using</ais-highlight-0000000000> S3:</strong> The connector will upload <ais-highlight-0000000000>data</ais-highlight-0000000000> into Amazon S3 and copy it into Redshift. This is the recommended approach for larger datasets as it will allow for a more performant export.</li>\n<li><strong>Bucket name:</strong> An S3 Bucket <ais-highlight-0000000000>rep</ais-highlight-0000000000>resents a collection of objects stored in Amazon S3.</li>\n<li><strong>Prefix:</strong> Limits results to only those keys that begin with the specified prefix.</li>\n<li><strong>Socket Timeout Seconds:</strong> The number of seconds to wait for a response <ais-highlight-0000000000>from</ais-highlight-0000000000> an established S3 connection. The default value is 5 minutes and may need to be increased to handle the export of large files.</li>\n<li><strong>Export <ais-highlight-0000000000>using</ais-highlight-0000000000> SQL insert statements:</strong> The connector will insert <ais-highlight-0000000000>data</ais-highlight-0000000000> directly into Redshift. This option will result in slower exports. If you plan to only perform <ais-highlight-0000000000>imports</ais-highlight-0000000000> <ais-highlight-0000000000>from</ais-highlight-0000000000> Redshift, you can select this option in order to not have to enter your S3 account details.</li>\n</ul> <div class=\"admonition note\">\n<p class=\"admonition-title\">Note</p>\n<p>The connector requires the s3:ListBucket permission on the bucket. Bucket contents require permissions s3:ListBucket, s3:GetObject, and (for export only) s3:PutObject. In addition, if there is a SourceIP condition block specified in your bucket policy, then you must include the IP addresses for your <ais-highlight-0000000000>Data</ais-highlight-0000000000> Prep server and any servers that are used to run automation jobs.</p>\n</div> <p>See Amazon S3 Connector Setup for more details.</p>"
+            },
+            "section": {
+              "matchLevel": "none",
+              "matchedWords": [
+
+              ],
+              "value": "Amazon S3 Client Configuration"
+            },
+            "title": {
+              "matchLevel": "none",
+              "matchedWords": [
+
+              ],
+              "value": "Amazon Redshift Connector"
+            }
+          },
+          "anchor": "amazon-s3-client-configuration",
+          "breadcrumbs": [
+            "Data",
+            "Data Prep",
+            "Connect to data sources",
+            "Amazon Redshift Connector"
+          ],
+          "content": "<ul>\n<li><strong>Export using S3?:</strong> This option specifies whether the connector will export to Redshift by uploading data into Amazon S3 and then copying it into Redshift, or by inserting data directly into Redshift.</li>\n<li><strong>Export using S3:</strong> The connector will upload data into Amazon S3 and copy it into Redshift. This is the recommended approach for larger datasets as it will allow for a more performant export.</li>\n<li><strong>Bucket name:</strong> An S3 Bucket represents a collection of objects stored in Amazon S3.</li>\n<li><strong>Prefix:</strong> Limits results to only those keys that begin with the specified prefix.</li>\n<li><strong>Socket Timeout Seconds:</strong> The number of seconds to wait for a response from an established S3 connection. The default value is 5 minutes and may need to be increased to handle the export of large files.</li>\n<li><strong>Export using SQL insert statements:</strong> The connector will insert data directly into Redshift. This option will result in slower exports. If you plan to only perform imports from Redshift, you can select this option in order to not have to enter your S3 account details.</li>\n</ul> <div class=\"admonition note\">\n<p class=\"admonition-title\">Note</p>\n<p>The connector requires the s3:ListBucket permission on the bucket. Bucket contents require permissions s3:ListBucket, s3:GetObject, and (for export only) s3:PutObject. In addition, if there is a SourceIP condition block specified in your bucket policy, then you must include the IP addresses for your Data Prep server and any servers that are used to run automation jobs.</p>\n</div> <p>See Amazon S3 Connector Setup for more details.</p>",
+          "itemType": "api",
+          "objectID": "a19c9a99-4b7f-4aa6-8dd4-7610b53f92ad",
+          "section": "Amazon S3 Client Configuration",
+          "title": "Amazon Redshift Connector",
+          "toc": [
+            "Configure Data Prep",
+            [
+              "General",
+              "Database URL",
+              "Visibility Settings",
+              "Import Configuration",
+              "Export Configuration",
+              "Redshift Credentials",
+              "Amazon S3 Client Configuration",
+              "Amazon S3 Authentication Settings",
+              "Web Proxy"
+            ],
+            "Data Import & Export Information",
+            [
+              "Via Browsing",
+              "Via SQL Query"
+            ]
+          ],
+          "url": "/en/data/data-prep-pax/dp-connect/dp-conn-amazon-redshift.html"
+        }
+      ],
+      "hitsPerPage": 10,
+      "index": "local_DOCS_PORTAL_PLATFORM_EN",
+      "nbHits": 15,
+      "nbPages": 2,
+      "page": 1,
+      "params": "restrictSearchableAttributes=%5B%22title%22%2C%22section%22%2C%22content%22%5D&hitsPerPage=10&typoTolerance=true&distinct=true&query=using+Import+data+from+rep&highlightPreTag=%3Cais-highlight-0000000000%3E&highlightPostTag=%3C%2Fais-highlight-0000000000%3E&page=1",
+      "processingTimeMS": 3,
+      "query": "using Import data from rep"
+    }
+  ]
+}

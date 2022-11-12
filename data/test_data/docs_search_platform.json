@@ -1,0 +1,81 @@
+{
+  "results": [
+    {
+      "exhaustiveNbHits": true,
+      "hits": [
+        {
+          "_highlightResult": {
+            "content": {
+              "fullyHighlighted": false,
+              "matchLevel": "full",
+              "matchedWords": [
+                "configure",
+                "time",
+                "aware",
+                "feature",
+                "engineering"
+              ],
+              "value": "<p>Once all datasets are loaded, the next step is to define relationships from the <strong>Define Relationships</strong> page. The primary dataset is on the canvas while any secondary sets are listed in the left pane. At any time you can:</p> <ul>\n<li>Hover on any dataset to display dataset metadata.</li>\n<li>\n<p>Click and drag to move the datasets on the canvas.</p>\n</li>\n<li>\n<p>Click a secondary dataset to highlight it; notice the addition of a plus sign on the primary set.</p>\n<p></p>\n</li>\n<li>\n<p>Click the plus sign. DataRobot adds the selected secondary dataset to the canvas and opens a configuration editor for setting join conditions.</p>\n<p></p>\n</li>\n</ul> <p>The following table describes the elements of the \"Create new relationship\" page:</p> <table>\n<thead>\n<tr>\n<th></th>\n<th>Element</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td></td>\n<td>Secondary dataset for join</td>\n<td>Sets the secondary dataset used in the join. Change via the dropdown to any added dataset. Changes are reflected in the canvas below.</td>\n</tr>\n<tr>\n<td></td>\n<td>Primary dataset for join</td>\n<td>Sets the primary dataset used in the join.</td>\n</tr>\n<tr>\n<td></td>\n<td>Suggested join condition</td>\n<td>Sets the join condition (<ais-highlight-0000000000>feature</ais-highlight-0000000000>) for the corresponding dataset (listed above the condition). DataRobot suggests up to five conditions, each of which is editable. Use the dropdown to select a new <ais-highlight-0000000000>feature</ais-highlight-0000000000>; use the trash icon () to delete the join.</td>\n</tr>\n<tr>\n<td></td>\n<td>Add join condition</td>\n<td>Provides a manual join configuration option.</td>\n</tr>\n<tr>\n<td></td>\n<td>Save or Save and <ais-highlight-0000000000>configure</ais-highlight-0000000000> <ais-highlight-0000000000>time-aware</ais-highlight-0000000000></td>\n<td>Saves the relationship configuration. <strong>Save</strong> is the option if there is no date <ais-highlight-0000000000>feature</ais-highlight-0000000000> or you did not set a prediction point. If you did set a prediction point from the primary dataset, the <strong>Save and <ais-highlight-0000000000>configure</ais-highlight-0000000000> <ais-highlight-0000000000>time-aware</ais-highlight-0000000000></strong> button presents.</td>\n</tr>\n<tr>\n<td></td>\n<td>Canvas display controls</td>\n<td>Zooms in or out, or resets the default display size.</td>\n</tr>\n<tr>\n<td></td>\n<td>Dataset menu options</td>\n<td>Provides access to a variety of actions that can be enacted on a primary or secondary dataset.</td>\n</tr>\n<tr>\n<td></td>\n<td>Join edit launch</td>\n<td>Opens the relationship editor, allowing you to define or modify the relationship between the datasets joined by the line you clicked.</td>\n</tr>\n<tr>\n<td></td>\n<td>Primary icon</td>\n<td>Indicates, with a bullseye icon, that this is the primary dataset.</td>\n</tr>\n<tr>\n<td></td>\n<td>Tour launch</td>\n<td>Opens a short tour that provides an overview of configuring <ais-highlight-0000000000>Feature</ais-highlight-0000000000> Discovery.</td>\n</tr>\n<tr>\n<td></td>\n<td>Continue to project</td>\n<td>Returns to the <strong>Start</strong> screen where you can revise your <ais-highlight-0000000000>time-aware</ais-highlight-0000000000> settings, set advanced options, set a modeling mode, and start the modeling process.</td>\n</tr>\n</tbody>\n</table> <p>Save the relationship configuration when complete. If it is a <ais-highlight-0000000000>time-aware</ais-highlight-0000000000> project, DataRobot opens the <strong><ais-highlight-0000000000>Time-aware</ais-highlight-0000000000> <ais-highlight-0000000000>feature</ais-highlight-0000000000> <ais-highlight-0000000000>engineering</ais-highlight-0000000000></strong> modal. In that modal, you set:</p> <ul>\n<li>The time index <ais-highlight-0000000000>feature</ais-highlight-0000000000> of the secondary dataset to ensure that it only uses records happening before the prediction point to generate features.</li>\n<li>The <ais-highlight-0000000000>feature</ais-highlight-0000000000> derivation window, a rolling window of past values used to generate features before the prediction point.</li>\n</ul> <p>Once set, the FDW is reflected in the dataset's tile on the canvas:</p>"
+            },
+            "section": {
+              "matchLevel": "none",
+              "matchedWords": [
+
+              ],
+              "value": "Define relationships"
+            },
+            "title": {
+              "fullyHighlighted": false,
+              "matchLevel": "partial",
+              "matchedWords": [
+                "feature"
+              ],
+              "value": "Create a project for <ais-highlight-0000000000>Feature</ais-highlight-0000000000> Discovery"
+            }
+          },
+          "anchor": "define-relationships",
+          "breadcrumbs": [
+            "Data",
+            "Data Management",
+            "Feature Discovery",
+            "Create a project for Feature Discovery"
+          ],
+          "content": "<p>Once all datasets are loaded, the next step is to define relationships from the <strong>Define Relationships</strong> page. The primary dataset is on the canvas while any secondary sets are listed in the left pane. At any time you can:</p> <ul>\n<li>Hover on any dataset to display dataset metadata.</li>\n<li>\n<p>Click and drag to move the datasets on the canvas.</p>\n</li>\n<li>\n<p>Click a secondary dataset to highlight it; notice the addition of a plus sign on the primary set.</p>\n<p></p>\n</li>\n<li>\n<p>Click the plus sign. DataRobot adds the selected secondary dataset to the canvas and opens a configuration editor for setting join conditions.</p>\n<p></p>\n</li>\n</ul> <p>The following table describes the elements of the \"Create new relationship\" page:</p> <table>\n<thead>\n<tr>\n<th></th>\n<th>Element</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td></td>\n<td>Secondary dataset for join</td>\n<td>Sets the secondary dataset used in the join. Change via the dropdown to any added dataset. Changes are reflected in the canvas below.</td>\n</tr>\n<tr>\n<td></td>\n<td>Primary dataset for join</td>\n<td>Sets the primary dataset used in the join.</td>\n</tr>\n<tr>\n<td></td>\n<td>Suggested join condition</td>\n<td>Sets the join condition (feature) for the corresponding dataset (listed above the condition). DataRobot suggests up to five conditions, each of which is editable. Use the dropdown to select a new feature; use the trash icon () to delete the join.</td>\n</tr>\n<tr>\n<td></td>\n<td>Add join condition</td>\n<td>Provides a manual join configuration option.</td>\n</tr>\n<tr>\n<td></td>\n<td>Save or Save and configure time-aware</td>\n<td>Saves the relationship configuration. <strong>Save</strong> is the option if there is no date feature or you did not set a prediction point. If you did set a prediction point from the primary dataset, the <strong>Save and configure time-aware</strong> button presents.</td>\n</tr>\n<tr>\n<td></td>\n<td>Canvas display controls</td>\n<td>Zooms in or out, or resets the default display size.</td>\n</tr>\n<tr>\n<td></td>\n<td>Dataset menu options</td>\n<td>Provides access to a variety of actions that can be enacted on a primary or secondary dataset.</td>\n</tr>\n<tr>\n<td></td>\n<td>Join edit launch</td>\n<td>Opens the relationship editor, allowing you to define or modify the relationship between the datasets joined by the line you clicked.</td>\n</tr>\n<tr>\n<td></td>\n<td>Primary icon</td>\n<td>Indicates, with a bullseye icon, that this is the primary dataset.</td>\n</tr>\n<tr>\n<td></td>\n<td>Tour launch</td>\n<td>Opens a short tour that provides an overview of configuring Feature Discovery.</td>\n</tr>\n<tr>\n<td></td>\n<td>Continue to project</td>\n<td>Returns to the <strong>Start</strong> screen where you can revise your time-aware settings, set advanced options, set a modeling mode, and start the modeling process.</td>\n</tr>\n</tbody>\n</table> <p>Save the relationship configuration when complete. If it is a time-aware project, DataRobot opens the <strong>Time-aware feature engineering</strong> modal. In that modal, you set:</p> <ul>\n<li>The time index feature of the secondary dataset to ensure that it only uses records happening before the prediction point to generate features.</li>\n<li>The feature derivation window, a rolling window of past values used to generate features before the prediction point.</li>\n</ul> <p>Once set, the FDW is reflected in the dataset's tile on the canvas:</p>",
+          "itemType": "platform",
+          "objectID": "d4b2bf3d-babd-4fd6-a01b-f87ccfb904f2",
+          "section": "Define relationships",
+          "title": "Create a project for Feature Discovery",
+          "toc": [
+            "Create a project from multiple datasets",
+            "Sample use case",
+            "Load datasets",
+            "Define relationships",
+            "Set join conditions",
+            [
+              "Add more datasets"
+            ],
+            "Dataset menu options",
+            [
+              "Primary dataset menu actions",
+              "Secondary dataset menu actions",
+              "Configure secondary datasets"
+            ],
+            "Start the project",
+            [
+              "Share assets"
+            ]
+          ],
+          "url": "/en/data/data-mgmt/feature-discovery/fd-overview.html"
+        }
+      ],
+      "hitsPerPage": 10,
+      "index": "local_DOCS_PORTAL_PLATFORM_EN",
+      "nbHits": 1,
+      "nbPages": 1,
+      "page": 0,
+      "params": "restrictSearchableAttributes=%5B%22title%22%2C%22section%22%2C%22content%22%5D&hitsPerPage=10&typoTolerance=true&distinct=true&query=configure+time-aware+feature+engineering&highlightPreTag=%3Cais-highlight-0000000000%3E&highlightPostTag=%3C%2Fais-highlight-0000000000%3E&page=0&filters=itemType%3Aplatform",
+      "processingTimeMS": 2,
+      "query": "configure time-aware feature engineering"
+    }
+  ]
+}

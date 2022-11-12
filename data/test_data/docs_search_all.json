@@ -1,0 +1,185 @@
+{
+  "results": [
+    {
+      "exhaustiveNbHits": true,
+      "hits": [
+        {
+          "_highlightResult": {
+            "content": {
+              "fullyHighlighted": false,
+              "matchLevel": "full",
+              "matchedWords": [
+                "configure",
+                "time",
+                "aware",
+                "feature",
+                "engineering"
+              ],
+              "value": "<p>After a join is saved, if the added dataset has a date <ais-highlight-0000000000>feature</ais-highlight-0000000000> and if you set a prediction point, the <strong>Save and <ais-highlight-0000000000>configure</ais-highlight-0000000000> <ais-highlight-0000000000>time-aware</ais-highlight-0000000000></strong> option becomes available. Click to open the <strong><ais-highlight-0000000000>Time-aware</ais-highlight-0000000000> <ais-highlight-0000000000>feature</ais-highlight-0000000000> <ais-highlight-0000000000>engineering</ais-highlight-0000000000></strong> editor.</p> <p>Set the date/time <ais-highlight-0000000000>feature</ais-highlight-0000000000> of the secondary dataset to ensure that it only uses records happening before the prediction point to generate features. Once set, the FDW settings can be modified.</p> <p>Set the boundaries of the FDW to determine how much historical data to use. By default, DataRobot sets the window to 30 to 0 days (e.g., transactions that happened in the 30 days before the \"loan request date\" of now). You can change the boundary by both entering a new value and also setting the increment. Keep in mind that using a larger FDW will slow down the <ais-highlight-0000000000>Feature</ais-highlight-0000000000> Discovery process.</p> <p>DataRobot also automatically calculates additional, smaller FDWs for the project, in addition to the window you specify. For example, if you set the FDW parameters to \"30 to 0 Days,\" DataRobot selects additional candidate durations (perhaps 1 to 0 weeks, 1 to 0 days, and 6 to 0 hours) and derives features from those windows. The new candidate window sizes are based on an internal algorithm that:</p> <ul>\n<li>Chooses additional windows between 50% and 0.5% of the original FDW size.</li>\n<li>Ensures the additional windows do not use a time unit with a smaller granularity than what is relevant for the primary date/time <ais-highlight-0000000000>feature</ais-highlight-0000000000> format.</li>\n</ul> <p>If the time index doesn’t reflect the time when data is accessible, you can change the FDW <em>end</em> boundary to reflect the delay. For example, perhaps a secondary dataset is provided by an external data provider and that provider gives you access with a two day delay. You can specify a gap of two days (before the prediction point).</p> <p>The FDW is reflected in the dataset tile:</p>"
+            },
+            "section": {
+              "fullyHighlighted": true,
+              "matchLevel": "full",
+              "matchedWords": [
+                "configure",
+                "time",
+                "aware",
+                "feature",
+                "engineering"
+              ],
+              "value": "<ais-highlight-0000000000>Configure</ais-highlight-0000000000> <ais-highlight-0000000000>time-aware</ais-highlight-0000000000> <ais-highlight-0000000000>feature</ais-highlight-0000000000> <ais-highlight-0000000000>engineering</ais-highlight-0000000000>"
+            },
+            "title": {
+              "fullyHighlighted": true,
+              "matchLevel": "partial",
+              "matchedWords": [
+                "time",
+                "aware",
+                "feature",
+                "engineering"
+              ],
+              "value": "<ais-highlight-0000000000>Time-aware</ais-highlight-0000000000> <ais-highlight-0000000000>feature</ais-highlight-0000000000> <ais-highlight-0000000000>engineering</ais-highlight-0000000000>"
+            }
+          },
+          "anchor": "configure-time-aware-feature-engineering",
+          "breadcrumbs": [
+            "Data",
+            "Data Management",
+            "Feature Discovery",
+            "Time-aware feature engineering"
+          ],
+          "content": "<p>After a join is saved, if the added dataset has a date feature and if you set a prediction point, the <strong>Save and configure time-aware</strong> option becomes available. Click to open the <strong>Time-aware feature engineering</strong> editor.</p> <p>Set the date/time feature of the secondary dataset to ensure that it only uses records happening before the prediction point to generate features. Once set, the FDW settings can be modified.</p> <p>Set the boundaries of the FDW to determine how much historical data to use. By default, DataRobot sets the window to 30 to 0 days (e.g., transactions that happened in the 30 days before the \"loan request date\" of now). You can change the boundary by both entering a new value and also setting the increment. Keep in mind that using a larger FDW will slow down the Feature Discovery process.</p> <p>DataRobot also automatically calculates additional, smaller FDWs for the project, in addition to the window you specify. For example, if you set the FDW parameters to \"30 to 0 Days,\" DataRobot selects additional candidate durations (perhaps 1 to 0 weeks, 1 to 0 days, and 6 to 0 hours) and derives features from those windows. The new candidate window sizes are based on an internal algorithm that:</p> <ul>\n<li>Chooses additional windows between 50% and 0.5% of the original FDW size.</li>\n<li>Ensures the additional windows do not use a time unit with a smaller granularity than what is relevant for the primary date/time feature format.</li>\n</ul> <p>If the time index doesn’t reflect the time when data is accessible, you can change the FDW <em>end</em> boundary to reflect the delay. For example, perhaps a secondary dataset is provided by an external data provider and that provider gives you access with a two day delay. You can specify a gap of two days (before the prediction point).</p> <p>The FDW is reflected in the dataset tile:</p>",
+          "itemType": "tutorials",
+          "section": "Configure time-aware feature engineering",
+          "title": "Time-aware feature engineering",
+          "toc": [
+            "Prediction point and time indexes",
+            [
+              "Configure time-aware feature engineering"
+            ],
+            "Prediction point rounding",
+            "Determine the final cutoff"
+          ],
+          "url": "/en/data/data-mgmt/feature-discovery/fd-time.html"
+        },
+        {
+          "_highlightResult": {
+            "content": {
+              "fullyHighlighted": false,
+              "matchLevel": "full",
+              "matchedWords": [
+                "configure",
+                "time",
+                "aware",
+                "feature",
+                "engineering"
+              ],
+              "value": "<p>Use the following table to help locate the documentation appropriate to your understanding and requirements of the <ais-highlight-0000000000>feature</ais-highlight-0000000000> <ais-highlight-0000000000>engineering</ais-highlight-0000000000> workflow:</p> <table>\n<thead>\n<tr>\n<th>Topic</th>\n<th>Describes...</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Create a project</td>\n<td>Create projects with secondary datasets, including a simple use-case-based workflow overview.</td>\n</tr>\n<tr>\n<td><ais-highlight-0000000000>Time-aware</ais-highlight-0000000000> <ais-highlight-0000000000>feature</ais-highlight-0000000000> <ais-highlight-0000000000>engineering</ais-highlight-0000000000></td>\n<td><ais-highlight-0000000000>Configure</ais-highlight-0000000000> <ais-highlight-0000000000>time-aware</ais-highlight-0000000000> <ais-highlight-0000000000>feature</ais-highlight-0000000000> <ais-highlight-0000000000>engineering</ais-highlight-0000000000>.</td>\n</tr>\n<tr>\n<td>Derived Features</td>\n<td>Introduction to the list of aggregations and the <ais-highlight-0000000000>feature</ais-highlight-0000000000> reduction process.</td>\n</tr>\n<tr>\n<td>Predictions</td>\n<td>Score data with models created using secondary datasets.</td>\n</tr>\n<tr>\n<td><ais-highlight-0000000000>Feature</ais-highlight-0000000000> considerations</td>\n<td>Considerations to be aware of when working with secondary datasets.</td>\n</tr>\n</tbody>\n</table> <p>In most cases, all you need to start is a simple training dataset that includes:</p> <ul>\n<li>The target (column that you want to predict).</li>\n<li>An identifier (e.g., customer_id, transaction_id,...) to link the dataset to additional related datasets.</li>\n<li>A date <ais-highlight-0000000000>feature</ais-highlight-0000000000> in the primary table that is then used as the point for generating new features (prediction point).</li>\n</ul> <p>From this primary dataset, DataRobot guides you through creating relationships to additional datasets, called secondary datasets. The end result is a multitude of additional features that will be used to train more accurate models and generate predictions.</p>"
+            },
+            "section": {
+              "matchLevel": "none",
+              "matchedWords": [
+
+              ],
+              "value": "Suggested reading path"
+            },
+            "title": {
+              "fullyHighlighted": false,
+              "matchLevel": "partial",
+              "matchedWords": [
+                "feature"
+              ],
+              "value": "<ais-highlight-0000000000>Feature</ais-highlight-0000000000> Discovery"
+            }
+          },
+          "anchor": "suggested-reading-path",
+          "breadcrumbs": [
+            "Data",
+            "Data Management",
+            "Feature Discovery"
+          ],
+          "content": "<p>Use the following table to help locate the documentation appropriate to your understanding and requirements of the feature engineering workflow:</p> <table>\n<thead>\n<tr>\n<th>Topic</th>\n<th>Describes...</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Create a project</td>\n<td>Create projects with secondary datasets, including a simple use-case-based workflow overview.</td>\n</tr>\n<tr>\n<td>Time-aware feature engineering</td>\n<td>Configure time-aware feature engineering.</td>\n</tr>\n<tr>\n<td>Derived Features</td>\n<td>Introduction to the list of aggregations and the feature reduction process.</td>\n</tr>\n<tr>\n<td>Predictions</td>\n<td>Score data with models created using secondary datasets.</td>\n</tr>\n<tr>\n<td>Feature considerations</td>\n<td>Considerations to be aware of when working with secondary datasets.</td>\n</tr>\n</tbody>\n</table> <p>In most cases, all you need to start is a simple training dataset that includes:</p> <ul>\n<li>The target (column that you want to predict).</li>\n<li>An identifier (e.g., customer_id, transaction_id,...) to link the dataset to additional related datasets.</li>\n<li>A date feature in the primary table that is then used as the point for generating new features (prediction point).</li>\n</ul> <p>From this primary dataset, DataRobot guides you through creating relationships to additional datasets, called secondary datasets. The end result is a multitude of additional features that will be used to train more accurate models and generate predictions.</p>",
+          "itemType": "api",
+          "objectID": "203d31d1-b1d3-4d27-bae3-265209b42908",
+          "section": "Suggested reading path",
+          "title": "Feature Discovery",
+          "toc": [
+            "Suggested reading path"
+          ],
+          "url": "/en/data/data-mgmt/feature-discovery/index.html"
+        },
+        {
+          "_highlightResult": {
+            "content": {
+              "fullyHighlighted": false,
+              "matchLevel": "full",
+              "matchedWords": [
+                "configure",
+                "time",
+                "aware",
+                "feature",
+                "engineering"
+              ],
+              "value": "<p>When a secondary dataset has been selected and moved to the canvas, a menu option becomes available on its tile. The table below describes the options available from the menu:</p> <table>\n<thead>\n<tr>\n<th>Option</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Add relation</td>\n<td>Opens the relationship editor and allows you to select a dataset (from any available in the left pane) to join with.</td>\n</tr>\n<tr>\n<td>Edit alias</td>\n<td>Allows you to set an alias for the dataset. The string displays on the canvas as the secondary dataset name. The alias does not change the display in the left-pane dataset list or the relationship editor pages.</td>\n</tr>\n<tr>\n<td><ais-highlight-0000000000>Configure</ais-highlight-0000000000> dataset</td>\n<td>Opens the dataset configuration editor, where you can set dataset details.</td>\n</tr>\n<tr>\n<td><ais-highlight-0000000000>Configure</ais-highlight-0000000000> time-awareness</td>\n<td>Opens the <ais-highlight-0000000000>time-aware</ais-highlight-0000000000> <ais-highlight-0000000000>feature</ais-highlight-0000000000> <ais-highlight-0000000000>engineering</ais-highlight-0000000000> configuration dialog, where you can select a time index for the secondary dataset or confirm that the correct date/time <ais-highlight-0000000000>feature</ais-highlight-0000000000> is selected.</td>\n</tr>\n<tr>\n<td>Details</td>\n<td>Click to open the <strong>Info</strong> window for the dataset in the <strong>AI Catalog</strong>.</td>\n</tr>\n<tr>\n<td>Delete</td>\n<td>Deletes the dataset, and all its relationships, from the current relationship configuration. The dataset is still available to the configuration and listed in the left panel.</td>\n</tr>\n</tbody>\n</table>"
+            },
+            "section": {
+              "matchLevel": "none",
+              "matchedWords": [
+
+              ],
+              "value": "Secondary dataset menu actions"
+            },
+            "title": {
+              "fullyHighlighted": false,
+              "matchLevel": "partial",
+              "matchedWords": [
+                "feature"
+              ],
+              "value": "Create a project for <ais-highlight-0000000000>Feature</ais-highlight-0000000000> Discovery"
+            }
+          },
+          "anchor": "secondary-dataset-menu-actions",
+          "breadcrumbs": [
+            "Data",
+            "Data Management",
+            "Feature Discovery",
+            "Create a project for Feature Discovery"
+          ],
+          "content": "<p>When a secondary dataset has been selected and moved to the canvas, a menu option becomes available on its tile. The table below describes the options available from the menu:</p> <table>\n<thead>\n<tr>\n<th>Option</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Add relation</td>\n<td>Opens the relationship editor and allows you to select a dataset (from any available in the left pane) to join with.</td>\n</tr>\n<tr>\n<td>Edit alias</td>\n<td>Allows you to set an alias for the dataset. The string displays on the canvas as the secondary dataset name. The alias does not change the display in the left-pane dataset list or the relationship editor pages.</td>\n</tr>\n<tr>\n<td>Configure dataset</td>\n<td>Opens the dataset configuration editor, where you can set dataset details.</td>\n</tr>\n<tr>\n<td>Configure time-awareness</td>\n<td>Opens the time-aware feature engineering configuration dialog, where you can select a time index for the secondary dataset or confirm that the correct date/time feature is selected.</td>\n</tr>\n<tr>\n<td>Details</td>\n<td>Click to open the <strong>Info</strong> window for the dataset in the <strong>AI Catalog</strong>.</td>\n</tr>\n<tr>\n<td>Delete</td>\n<td>Deletes the dataset, and all its relationships, from the current relationship configuration. The dataset is still available to the configuration and listed in the left panel.</td>\n</tr>\n</tbody>\n</table>",
+          "itemType": "tutorials",
+          "objectID": "fd27507b-05f5-4484-acec-79a6f47d3c56",
+          "section": "Secondary dataset menu actions",
+          "title": "Create a project for Feature Discovery",
+          "toc": [
+            "Create a project from multiple datasets",
+            "Sample use case",
+            "Load datasets",
+            "Define relationships",
+            "Set join conditions",
+            [
+              "Add more datasets"
+            ],
+            "Dataset menu options",
+            [
+              "Primary dataset menu actions",
+              "Secondary dataset menu actions",
+              "Configure secondary datasets"
+            ],
+            "Start the project",
+            [
+              "Share assets"
+            ]
+          ],
+          "url": "/en/data/data-mgmt/feature-discovery/fd-overview.html"
+        }
+      ],
+      "hitsPerPage": 10,
+      "index": "local_DOCS_PORTAL_PLATFORM_EN",
+      "nbHits": 3,
+      "nbPages": 1,
+      "page": 0,
+      "params": "restrictSearchableAttributes=%5B%22title%22%2C%22section%22%2C%22content%22%5D&hitsPerPage=10&typoTolerance=true&distinct=true&query=configure+time-aware+feature+engineering&highlightPreTag=%3Cais-highlight-0000000000%3E&highlightPostTag=%3C%2Fais-highlight-0000000000%3E&page=0",
+      "query": "configure time-aware feature engineering"
+    }
+  ]
+}

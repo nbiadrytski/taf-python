@@ -1,0 +1,54 @@
+{
+  "errors": {
+    "billingPeriodStartTs": "value does not match format %Y-%m-%dT%H:%M:%S%z",
+    "billingPeriodEndTs": "value does not match format %Y-%m-%dT%H:%M:%S%z",
+    "activeUsers": {
+      "0": {
+        "email": "value is not a valid email address",
+        "uid": "String is longer than 24 characters",
+        "operations": {
+          "0": {
+            "projectId": "String is longer than 24 characters",
+            "deploymentId": "value is not a string",
+            "operationDetails": {
+              "projectName": "value is not a string",
+              "deploymentLabel": "value is not a string",
+              "executionTimeMilliseconds": "value can't be converted to int",
+              "uptimeSeconds": "value can't be converted to int",
+              "type": "value is not a string",
+              "workerSize": "value is not a string",
+              "category": "value is not a string",
+              "limits": "limits is not allowed key"
+            },
+            "value": "value should be greater than 0",
+            "source": "value is not a valid source",
+            "metricType": "value is not a valid metric type",
+            "modelId": "modelId is not allowed key"
+          }
+        },
+        "password": "password is not allowed key"
+      },
+      "1": {
+        "email": "value is not a string",
+        "uid": "String is shorter than 24 characters",
+        "operations": {
+          "0": {
+            "deploymentId": "String is shorter than 24 characters",
+            "operationDetails": {
+              "executionTimeMilliseconds": "value is not int",
+              "uptimeSeconds": "value is not int",
+              "type": "value is not a string",
+              "workerSize": "value is not a string",
+              "category": "value is not a string"
+            },
+            "value": "value can't be converted to float",
+            "source": "value is not a valid source",
+            "metricType": "value is not a valid metric type",
+            "amount": "amount is not allowed key"
+          }
+        }
+      }
+    },
+    "billingPeriodMiddleTs": "billingPeriodMiddleTs is not allowed key"
+  }
+}
